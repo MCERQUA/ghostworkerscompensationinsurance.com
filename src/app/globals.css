@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0052cc;
+  --primary-light: #1a6bff;
+  --primary-dark: #003d99;
+  --charcoal: #1e2d3d;
+  --charcoal-light: #2d4156;
+  --slate: #64748b;
+  --slate-light: #94a3b8;
+  --bg: #ffffff;
+  --bg-subtle: #f8fafc;
+  --bg-muted: #f1f5f9;
+  --border: #e2e8f0;
+  --border-primary: rgba(0, 82, 204, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--charcoal);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-float-delay { animation: float 6s ease-in-out infinite 2s; }
+.animate-pulse-glow { animation: pulse-glow 4s ease-in-out infinite; }
+
+.hero-gradient {
+  background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #dbeafe 100%);
+}
+
+.section-gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.blue-gradient-text {
+  background: linear-gradient(135deg, #0052cc 0%, #1a6bff 50%, #4d9fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0, 82, 204, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0052cc 0%, #1a6bff 100%);
+  color: white;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 82, 204, 0.3);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 82, 204, 0.4);
+}

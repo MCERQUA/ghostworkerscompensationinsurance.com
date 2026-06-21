@@ -1,0 +1,4299 @@
+{
+  "site": "ghostworkerscompensationinsurance.com",
+  "research_date": "2026-06-21",
+  "keyword_suggestions": {
+    "seed1_ghost_workers_comp_insurance": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.6083 sec.",
+      "cost": 0.0101,
+      "tasks_count": 2,
+      "tasks_error": 1,
+      "tasks": [
+        {
+          "id": "06210326-1574-0399-0000-485864632535",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "0.5556 sec.",
+          "cost": 0.0101,
+          "result_count": 1,
+          "path": [
+            "v3",
+            "dataforseo_labs",
+            "google",
+            "keyword_suggestions",
+            "live"
+          ],
+          "data": {
+            "api": "dataforseo_labs",
+            "function": "keyword_suggestions",
+            "se_type": "google",
+            "keyword": "ghost workers comp insurance",
+            "location_name": "United States",
+            "language_name": "English",
+            "limit": 30
+          },
+          "result": [
+            {
+              "se_type": "google",
+              "seed_keyword": "ghost workers comp insurance",
+              "seed_keyword_data": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "total_count": 1,
+              "items_count": 1,
+              "offset": 0,
+              "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiZ2hvc3Qgd29ya2VycyBjb21wIGluc3VyYW5jZSIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjpmYWxzZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzAsIm9mZnNldCI6MCwiYWlkIjoxNTc0NDIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA2MjEwMzI2LTE1NzQtMDM5OS0wMDAwLTQ4NTg2NDYzMjUzNSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiZjUyZTVmMjMtOGI1Mi00NTc3LTk3NDItY2EwMWJhNTNmZDZkIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMzAsIjE3MWMxYjg1LTdhODgtMDIzNC02MjliLTA5NmI1OTRjMzMwNyJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+              "items": [
+                {
+                  "se_type": "google",
+                  "keyword": "workers comp insurance ghost policy",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-15 08:58:25 +00:00",
+                    "competition": 0.69,
+                    "competition_level": "HIGH",
+                    "cpc": 54.83,
+                    "search_volume": 30,
+                    "low_top_of_page_bid": 19.83,
+                    "high_top_of_page_bid": 61.73,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 40
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": -40,
+                      "quarterly": 50,
+                      "yearly": -25
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": "keyword_metrics",
+                    "keyword_difficulty": 0,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": {
+                    "se_type": "google",
+                    "backlinks": 0.9,
+                    "dofollow": 0.7,
+                    "referring_pages": 0.9,
+                    "referring_domains": 0.8,
+                    "referring_main_domains": 0.8,
+                    "rank": 18.4,
+                    "main_domain_rank": 344.1,
+                    "last_updated_time": "2026-04-16 20:04:49 +00:00"
+                  },
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:56:36 +00:00"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "06210326-1574-0399-0000-7a4c0619c00a",
+          "status_code": 40000,
+          "status_message": "You can set only one task at a time.",
+          "time": "0 sec.",
+          "cost": 0,
+          "result_count": 0,
+          "path": [
+            "v3",
+            "dataforseo_labs",
+            "google",
+            "keyword_suggestions",
+            "live"
+          ],
+          "data": {
+            "api": "dataforseo_labs",
+            "function": "keyword_suggestions",
+            "se_type": "google",
+            "keyword": "ghost policy workers compensation",
+            "location_name": "United States",
+            "language_name": "English",
+            "limit": 30
+          },
+          "result": null
+        }
+      ]
+    },
+    "seed2_ghost_policy_workers_compensation": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.3181 sec.",
+      "cost": 0.0112,
+      "tasks_count": 1,
+      "tasks_error": 0,
+      "tasks": [
+        {
+          "id": "06210327-1574-0399-0000-34f97f9545a8",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "0.2616 sec.",
+          "cost": 0.0112,
+          "result_count": 1,
+          "path": [
+            "v3",
+            "dataforseo_labs",
+            "google",
+            "keyword_suggestions",
+            "live"
+          ],
+          "data": {
+            "api": "dataforseo_labs",
+            "function": "keyword_suggestions",
+            "se_type": "google",
+            "keyword": "ghost policy workers compensation",
+            "location_name": "United States",
+            "language_name": "English",
+            "limit": 30
+          },
+          "result": [
+            {
+              "se_type": "google",
+              "seed_keyword": "ghost policy workers compensation",
+              "seed_keyword_data": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "total_count": 12,
+              "items_count": 12,
+              "offset": 0,
+              "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxMiwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6Imdob3N0IHBvbGljeSB3b3JrZXJzIGNvbXBlbnNhdGlvbiIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjpmYWxzZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzAsIm9mZnNldCI6MCwiYWlkIjoxNTc0NDIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA2MjEwMzI3LTE1NzQtMDM5OS0wMDAwLTM0Zjk3Zjk1NDVhOCIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiMTZmYTVlMDgtYjYzMS00YjdkLWJhMDMtMWYwNDRlZmE2YmMyIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbLTkyMjMzNzIwMzY4NTQ3NzU4MDgsImRiMGRlNmI3LWUwYTUtZGQyZS0zZDkwLTgzNzQ4MTBhN2I2MyJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+              "items": [
+                {
+                  "se_type": "google",
+                  "keyword": "workers compensation ghost policy",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-18 06:43:55 +00:00",
+                    "competition": 0.7,
+                    "competition_level": "HIGH",
+                    "cpc": 42.32,
+                    "search_volume": 1600,
+                    "low_top_of_page_bid": 13.05,
+                    "high_top_of_page_bid": 41.6,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 1900
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 1000
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 1000
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 1300
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 1300
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 1300
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": -16,
+                      "yearly": -33
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": "text_processing",
+                    "keyword_difficulty": 0,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 4
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": {
+                    "se_type": "google",
+                    "backlinks": 1.9,
+                    "dofollow": 1.7,
+                    "referring_pages": 1.9,
+                    "referring_domains": 1.5,
+                    "referring_main_domains": 1.5,
+                    "rank": 27.4,
+                    "main_domain_rank": 244.1,
+                    "last_updated_time": "2026-03-14 11:46:17 +00:00"
+                  },
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:02:55 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "ghost policy for workers compensation",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-15 01:02:30 +00:00",
+                    "competition": 0.7,
+                    "competition_level": "HIGH",
+                    "cpc": 42.32,
+                    "search_volume": 1600,
+                    "low_top_of_page_bid": 13.05,
+                    "high_top_of_page_bid": 41.6,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 1900
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 1000
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 1000
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 1300
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 1300
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 1600
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 1300
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": -16,
+                      "yearly": -33
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": "workers compensation ghost policy",
+                    "synonym_clustering_algorithm": "text_processing",
+                    "keyword_difficulty": 0,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": {
+                    "se_type": "google",
+                    "backlinks": 0.7,
+                    "dofollow": 0.5,
+                    "referring_pages": 0.7,
+                    "referring_domains": 0.7,
+                    "referring_main_domains": 0.7,
+                    "rank": 14.8,
+                    "main_domain_rank": 265.2,
+                    "last_updated_time": "2026-05-18 07:00:38 +00:00"
+                  },
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-27 20:55:32 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "ghost policy for workers compensation in nc",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-14 16:09:23 +00:00",
+                    "competition": 0.8,
+                    "competition_level": "HIGH",
+                    "cpc": 45.61,
+                    "search_volume": 70,
+                    "low_top_of_page_bid": 15.25,
+                    "high_top_of_page_bid": 46.15,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 70
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 110
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 90
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 90
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 50
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 70
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": -29,
+                      "quarterly": -55,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": "text_processing",
+                    "keyword_difficulty": 0,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 7
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": {
+                    "se_type": "google",
+                    "backlinks": 3.2,
+                    "dofollow": 1.8,
+                    "referring_pages": 3,
+                    "referring_domains": 2.6,
+                    "referring_main_domains": 2.6,
+                    "rank": 18.4,
+                    "main_domain_rank": 221.2,
+                    "last_updated_time": "2024-10-01 02:28:12 +00:00"
+                  },
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-27 23:08:34 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "ghost policy for workers compensation in ga",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-16 15:11:54 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 10
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": 23,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 7
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": {
+                    "se_type": "google",
+                    "backlinks": 13.8,
+                    "dofollow": 3,
+                    "referring_pages": 12,
+                    "referring_domains": 7.4,
+                    "referring_main_domains": 7.4,
+                    "rank": 60.4,
+                    "main_domain_rank": 316.5,
+                    "last_updated_time": "2022-10-12 17:53:39 +00:00"
+                  },
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "commercial",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-05-07 17:14:27 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "what is a workers compensation ghost policy",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-18 13:31:55 +00:00",
+                    "competition": 0.52,
+                    "competition_level": "MEDIUM",
+                    "cpc": 9.62,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": 5.73,
+                    "high_top_of_page_bid": 15.37,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 10
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": "keyword_metrics",
+                    "keyword_difficulty": null,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 7
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:35:36 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "workers compensation insurance ghost policy",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-16 13:12:19 +00:00",
+                    "competition": 0.75,
+                    "competition_level": "HIGH",
+                    "cpc": 31.44,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": 16.58,
+                    "high_top_of_page_bid": 44.81,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 30
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 10
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": -67,
+                      "quarterly": -50,
+                      "yearly": -50
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": "keyword_metrics",
+                    "keyword_difficulty": 40,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:26:09 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "workers compensation ghost policy nc",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-18 22:18:31 +00:00",
+                    "competition": 0.74,
+                    "competition_level": "HIGH",
+                    "cpc": 65.54,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": 22.47,
+                    "high_top_of_page_bid": 72.33,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 20
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 10
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": "ghost policy for workers compensation in nc",
+                    "synonym_clustering_algorithm": "text_processing",
+                    "keyword_difficulty": 37,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:37:15 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "nc workers compensation insurance ghost policy",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-14 11:33:10 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": 0,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 0
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": 37,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 6
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-29 16:50:20 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "florida workers compensation ghost policy",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-12 01:50:06 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 0
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": null,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-27 19:45:25 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "ghost policy for workers compensation in california",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-15 06:40:31 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 0
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": null,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 7
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-28 15:54:58 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "workers compensation ghost policy nj",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-18 15:30:28 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 0
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": null,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:24:40 +00:00"
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "keyword": "workers compensation ghost policy va",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-06-15 04:51:34 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": null,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10012,
+                      10012,
+                      10102,
+                      10102,
+                      10303,
+                      10303,
+                      11365
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2026,
+                        "month": 5,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 4,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 3,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 2,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2026,
+                        "month": 1,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 0
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": 0,
+                      "quarterly": 0,
+                      "yearly": 0
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": null,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": 5
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "informational",
+                    "foreign_intent": null,
+                    "last_updated_time": "2026-04-30 00:41:44 +00:00"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "search_volumes": {
+    "batch1_core_terms": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.8701 sec.",
+      "cost": 0.075,
+      "tasks_count": 1,
+      "tasks_error": 0,
+      "tasks": [
+        {
+          "id": "06210326-1574-0367-0000-d88a016d92c6",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "3.7769 sec.",
+          "cost": 0.075,
+          "result_count": 10,
+          "path": [
+            "v3",
+            "keywords_data",
+            "google_ads",
+            "search_volume",
+            "live"
+          ],
+          "data": {
+            "api": "keywords_data",
+            "function": "search_volume",
+            "se": "google_ads",
+            "keywords": [
+              "ghost workers comp insurance",
+              "ghost policy workers compensation",
+              "workers comp audit protection",
+              "employer liability insurance",
+              "ghost employee workers comp",
+              "payroll fraud workers compensation",
+              "workers comp ghost policy",
+              "independent contractor misclassification insurance",
+              "workers compensation audit",
+              "ghost workers compensation policy"
+            ],
+            "location_name": "United States",
+            "language_name": "English"
+          },
+          "result": [
+            {
+              "keyword": "ghost workers comp insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 74,
+              "search_volume": 20,
+              "low_top_of_page_bid": 14.75,
+              "high_top_of_page_bid": 44.01,
+              "cpc": 52.17,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 40
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 40
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 30
+                }
+              ]
+            },
+            {
+              "keyword": "ghost policy workers compensation",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 70,
+              "search_volume": 1600,
+              "low_top_of_page_bid": 13.05,
+              "high_top_of_page_bid": 41.6,
+              "cpc": 42.32,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1300
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp audit protection",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "employer liability insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 24,
+              "search_volume": 880,
+              "low_top_of_page_bid": 6.86,
+              "high_top_of_page_bid": 42.99,
+              "cpc": 32.41,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1000
+                }
+              ]
+            },
+            {
+              "keyword": "ghost employee workers comp",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "payroll fraud workers compensation",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "workers comp ghost policy",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 70,
+              "search_volume": 1600,
+              "low_top_of_page_bid": 13.05,
+              "high_top_of_page_bid": 41.6,
+              "cpc": 42.32,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1300
+                }
+              ]
+            },
+            {
+              "keyword": "independent contractor misclassification insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "workers compensation audit",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 6,
+              "search_volume": 1000,
+              "low_top_of_page_bid": 4.78,
+              "high_top_of_page_bid": 24.86,
+              "cpc": 14.03,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1000
+                }
+              ]
+            },
+            {
+              "keyword": "ghost workers compensation policy",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 70,
+              "search_volume": 1600,
+              "low_top_of_page_bid": 13.05,
+              "high_top_of_page_bid": 41.6,
+              "cpc": 42.32,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "batch2_broad_terms": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.0315 sec.",
+      "cost": 0.075,
+      "tasks_count": 1,
+      "tasks_error": 0,
+      "tasks": [
+        {
+          "id": "06210327-1574-0367-0000-744d9ef7e0c1",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "2.9289 sec.",
+          "cost": 0.075,
+          "result_count": 15,
+          "path": [
+            "v3",
+            "keywords_data",
+            "google_ads",
+            "search_volume",
+            "live"
+          ],
+          "data": {
+            "api": "keywords_data",
+            "function": "search_volume",
+            "se": "google_ads",
+            "keywords": [
+              "workers comp insurance ghost policy",
+              "ghost policy insurance",
+              "ghost workers compensation",
+              "workers comp ghost policy definition",
+              "buy workers comp insurance online",
+              "workers comp for contractors",
+              "workers comp certificate of insurance",
+              "workers compensation audit appeal",
+              "employer liability workers comp",
+              "workers comp insurance no employees",
+              "sole proprietor workers comp",
+              "workers comp insurance for small business",
+              "1099 contractor workers comp",
+              "subcontractor workers comp insurance",
+              "workers comp audit overpayment"
+            ],
+            "location_name": "United States",
+            "language_name": "English"
+          },
+          "result": [
+            {
+              "keyword": "workers comp insurance ghost policy",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 69,
+              "search_volume": 30,
+              "low_top_of_page_bid": 19.83,
+              "high_top_of_page_bid": 61.73,
+              "cpc": 54.83,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 40
+                }
+              ]
+            },
+            {
+              "keyword": "ghost policy insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 65,
+              "search_volume": 170,
+              "low_top_of_page_bid": 13.97,
+              "high_top_of_page_bid": 45,
+              "cpc": 50.41,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 210
+                }
+              ]
+            },
+            {
+              "keyword": "ghost workers compensation",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 68,
+              "search_volume": 50,
+              "low_top_of_page_bid": 10.2,
+              "high_top_of_page_bid": 46.64,
+              "cpc": 35.74,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 90
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 40
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 40
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 50
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp ghost policy definition",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "buy workers comp insurance online",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 31,
+              "search_volume": 90,
+              "low_top_of_page_bid": 50.49,
+              "high_top_of_page_bid": 234.74,
+              "cpc": 139.52,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 20
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 260
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp for contractors",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 38,
+              "search_volume": 140,
+              "low_top_of_page_bid": 17.15,
+              "high_top_of_page_bid": 78.2,
+              "cpc": 100.09,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 110
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 110
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 110
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 210
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp certificate of insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 27,
+              "search_volume": 880,
+              "low_top_of_page_bid": 9.73,
+              "high_top_of_page_bid": 40.29,
+              "cpc": 58.92,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1000
+                }
+              ]
+            },
+            {
+              "keyword": "workers compensation audit appeal",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "employer liability workers comp",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "workers comp insurance no employees",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "sole proprietor workers comp",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 54,
+              "search_volume": 320,
+              "low_top_of_page_bid": 14.99,
+              "high_top_of_page_bid": 76.32,
+              "cpc": 84.83,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 260
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp insurance for small business",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 35,
+              "search_volume": 3600,
+              "low_top_of_page_bid": 31.07,
+              "high_top_of_page_bid": 123.41,
+              "cpc": 124.11,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 4400
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 6600
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 2400
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 2900
+                }
+              ]
+            },
+            {
+              "keyword": "1099 contractor workers comp",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "subcontractor workers comp insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 86,
+              "search_volume": 10,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 0
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 0
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp audit overpayment",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            }
+          ]
+        }
+      ]
+    },
+    "batch3_extended_terms": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.0133 sec.",
+      "cost": 0.075,
+      "tasks_count": 1,
+      "tasks_error": 0,
+      "tasks": [
+        {
+          "id": "06210327-1574-0367-0000-968c5a571844",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "3.9525 sec.",
+          "cost": 0.075,
+          "result_count": 15,
+          "path": [
+            "v3",
+            "keywords_data",
+            "google_ads",
+            "search_volume",
+            "live"
+          ],
+          "data": {
+            "api": "keywords_data",
+            "function": "search_volume",
+            "se": "google_ads",
+            "keywords": [
+              "workers comp audit",
+              "workers compensation certificate",
+              "certificate of insurance workers comp",
+              "workers comp waiver",
+              "workers comp exemption",
+              "cheap workers comp insurance",
+              "workers comp insurance quote",
+              "ghost policy nc",
+              "ghost policy texas",
+              "ghost policy florida",
+              "workers comp for self employed",
+              "workers comp no employees needed",
+              "workers comp insurance sole proprietor",
+              "ghost workers comp",
+              "workers comp for 1099 employees"
+            ],
+            "location_name": "United States",
+            "language_name": "English"
+          },
+          "result": [
+            {
+              "keyword": "workers comp audit",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 6,
+              "search_volume": 1000,
+              "low_top_of_page_bid": 4.78,
+              "high_top_of_page_bid": 24.86,
+              "cpc": 14.03,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1000
+                }
+              ]
+            },
+            {
+              "keyword": "workers compensation certificate",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 38,
+              "search_volume": 590,
+              "low_top_of_page_bid": 7.08,
+              "high_top_of_page_bid": 28.98,
+              "cpc": 34.28,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 720
+                }
+              ]
+            },
+            {
+              "keyword": "certificate of insurance workers comp",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 27,
+              "search_volume": 880,
+              "low_top_of_page_bid": 9.73,
+              "high_top_of_page_bid": 40.29,
+              "cpc": 58.92,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1000
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp waiver",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 18,
+              "search_volume": 880,
+              "low_top_of_page_bid": 2.63,
+              "high_top_of_page_bid": 27.19,
+              "cpc": 9.28,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 720
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 880
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1000
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp exemption",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 9,
+              "search_volume": 8100,
+              "low_top_of_page_bid": 5.15,
+              "high_top_of_page_bid": 25.79,
+              "cpc": 18.37,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 8100
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 8100
+                }
+              ]
+            },
+            {
+              "keyword": "cheap workers comp insurance",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 66,
+              "search_volume": 1600,
+              "low_top_of_page_bid": 29.33,
+              "high_top_of_page_bid": 122.63,
+              "cpc": 117.92,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 1300
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 1000
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 1600
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 2400
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 1600
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp insurance quote",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 3,
+              "search_volume": 5400,
+              "low_top_of_page_bid": 32.36,
+              "high_top_of_page_bid": 124.5,
+              "cpc": 110.74,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 4400
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 4400
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 4400
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 5400
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 9900
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 5400
+                }
+              ]
+            },
+            {
+              "keyword": "ghost policy nc",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 81,
+              "search_volume": 10,
+              "low_top_of_page_bid": 45,
+              "high_top_of_page_bid": 102.84,
+              "cpc": 100.73,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 0
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 0
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 0
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 10
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 10
+                }
+              ]
+            },
+            {
+              "keyword": "ghost policy texas",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "ghost policy florida",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "workers comp for self employed",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 52,
+              "search_volume": 390,
+              "low_top_of_page_bid": 10.98,
+              "high_top_of_page_bid": 48.05,
+              "cpc": 57.39,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 390
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 480
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 590
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 480
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp no employees needed",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": null,
+              "competition_index": null,
+              "search_volume": null,
+              "low_top_of_page_bid": null,
+              "high_top_of_page_bid": null,
+              "cpc": null,
+              "monthly_searches": null
+            },
+            {
+              "keyword": "workers comp insurance sole proprietor",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "LOW",
+              "competition_index": 13,
+              "search_volume": 2900,
+              "low_top_of_page_bid": 19.3,
+              "high_top_of_page_bid": 75.61,
+              "cpc": 55.42,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 1900
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 2900
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 3600
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 4400
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 3600
+                }
+              ]
+            },
+            {
+              "keyword": "ghost workers comp",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "HIGH",
+              "competition_index": 68,
+              "search_volume": 50,
+              "low_top_of_page_bid": 10.2,
+              "high_top_of_page_bid": 46.64,
+              "cpc": 35.74,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 90
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 30
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 50
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 40
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 40
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 70
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 50
+                }
+              ]
+            },
+            {
+              "keyword": "workers comp for 1099 employees",
+              "spell": null,
+              "location_code": 2840,
+              "language_code": "en",
+              "search_partners": false,
+              "competition": "MEDIUM",
+              "competition_index": 35,
+              "search_volume": 260,
+              "low_top_of_page_bid": 8.73,
+              "high_top_of_page_bid": 41.12,
+              "cpc": 43.99,
+              "monthly_searches": [
+                {
+                  "year": 2026,
+                  "month": 5,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2026,
+                  "month": 4,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2026,
+                  "month": 3,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2026,
+                  "month": 2,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2026,
+                  "month": 1,
+                  "search_volume": 320
+                },
+                {
+                  "year": 2025,
+                  "month": 12,
+                  "search_volume": 140
+                },
+                {
+                  "year": 2025,
+                  "month": 11,
+                  "search_volume": 170
+                },
+                {
+                  "year": 2025,
+                  "month": 10,
+                  "search_volume": 210
+                },
+                {
+                  "year": 2025,
+                  "month": 9,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2025,
+                  "month": 8,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2025,
+                  "month": 7,
+                  "search_volume": 260
+                },
+                {
+                  "year": 2025,
+                  "month": 6,
+                  "search_volume": 260
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "serp_competitors": {
+    "narrow_seed_terms": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0812 sec.",
+      "cost": 0.01,
+      "tasks_count": 1,
+      "tasks_error": 0,
+      "tasks": [
+        {
+          "id": "06210326-1574-0383-0000-7a04760a859d",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "0.0261 sec.",
+          "cost": 0.01,
+          "result_count": 1,
+          "path": [
+            "v3",
+            "dataforseo_labs",
+            "google",
+            "serp_competitors",
+            "live"
+          ],
+          "data": {
+            "api": "dataforseo_labs",
+            "function": "serp_competitors",
+            "se_type": "google",
+            "keywords": [
+              "ghost workers comp insurance",
+              "ghost policy workers compensation",
+              "ghost policy insurance"
+            ],
+            "location_name": "United States",
+            "language_name": "English",
+            "limit": 10
+          },
+          "result": [
+            {
+              "se_type": "google",
+              "seed_keywords": [
+                "ghost workers comp insurance",
+                "ghost policy workers compensation",
+                "ghost policy insurance"
+              ],
+              "location_code": 2840,
+              "language_code": "en",
+              "total_count": null,
+              "items_count": 0,
+              "items": null
+            }
+          ]
+        }
+      ]
+    },
+    "broad_terms": {
+      "version": "0.1.20260610",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1034 sec.",
+      "cost": 0.011,
+      "tasks_count": 1,
+      "tasks_error": 0,
+      "tasks": [
+        {
+          "id": "06210327-1574-0383-0000-59df76be1cf5",
+          "status_code": 20000,
+          "status_message": "Ok.",
+          "time": "0.0730 sec.",
+          "cost": 0.011,
+          "result_count": 1,
+          "path": [
+            "v3",
+            "dataforseo_labs",
+            "google",
+            "serp_competitors",
+            "live"
+          ],
+          "data": {
+            "api": "dataforseo_labs",
+            "function": "serp_competitors",
+            "se_type": "google",
+            "keywords": [
+              "workers comp insurance sole proprietor",
+              "ghost policy workers compensation",
+              "workers comp exemption",
+              "cheap workers comp insurance",
+              "workers comp insurance for small business"
+            ],
+            "location_name": "United States",
+            "language_name": "English",
+            "limit": 10
+          },
+          "result": [
+            {
+              "se_type": "google",
+              "seed_keywords": [
+                "workers comp insurance sole proprietor",
+                "ghost policy workers compensation",
+                "workers comp exemption",
+                "cheap workers comp insurance",
+                "workers comp insurance for small business"
+              ],
+              "location_code": 2840,
+              "language_code": "en",
+              "total_count": 96,
+              "items_count": 10,
+              "items": [
+                {
+                  "se_type": "google",
+                  "domain": "www.insureon.com",
+                  "avg_position": 4.5,
+                  "median_position": 3,
+                  "rating": 191,
+                  "etv": 458.65,
+                  "keywords_count": 2,
+                  "visibility": 1.3,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      6
+                    ],
+                    "cheap workers comp insurance": [
+                      3
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.thehartford.com",
+                  "avg_position": 7,
+                  "median_position": 5,
+                  "rating": 186,
+                  "etv": 210.61,
+                  "keywords_count": 2,
+                  "visibility": 0.8,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      9
+                    ],
+                    "cheap workers comp insurance": [
+                      5
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "cerity.com",
+                  "avg_position": 10,
+                  "median_position": 1,
+                  "rating": 180,
+                  "etv": 599.47,
+                  "keywords_count": 2,
+                  "visibility": 1.05,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      19
+                    ],
+                    "cheap workers comp insurance": [
+                      1
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.biberk.com",
+                  "avg_position": 11.5,
+                  "median_position": 9,
+                  "rating": 177,
+                  "etv": 73.86,
+                  "keywords_count": 2,
+                  "visibility": 0.25,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      14
+                    ],
+                    "cheap workers comp insurance": [
+                      9
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.nextinsurance.com",
+                  "avg_position": 12.5,
+                  "median_position": 2,
+                  "rating": 175,
+                  "etv": 324.81,
+                  "keywords_count": 2,
+                  "visibility": 0.9,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      23
+                    ],
+                    "cheap workers comp insurance": [
+                      2
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.youtube.com",
+                  "avg_position": 18,
+                  "median_position": 18,
+                  "rating": 164,
+                  "etv": 33,
+                  "keywords_count": 2,
+                  "visibility": 0.1,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      18
+                    ],
+                    "cheap workers comp insurance": [
+                      18
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.workerscompensationshop.com",
+                  "avg_position": 18,
+                  "median_position": 8,
+                  "rating": 164,
+                  "etv": 54.44,
+                  "keywords_count": 2,
+                  "visibility": 0.3,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      28
+                    ],
+                    "cheap workers comp insurance": [
+                      8
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.moneygeek.com",
+                  "avg_position": 19.5,
+                  "median_position": 12,
+                  "rating": 161,
+                  "etv": 31.259999999999998,
+                  "keywords_count": 2,
+                  "visibility": 0.05,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      27
+                    ],
+                    "cheap workers comp insurance": [
+                      12
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.facebook.com",
+                  "avg_position": 36,
+                  "median_position": 25,
+                  "rating": 128,
+                  "etv": 20.999999999999996,
+                  "keywords_count": 2,
+                  "visibility": 0,
+                  "relevant_serp_items": 2,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      47
+                    ],
+                    "cheap workers comp insurance": [
+                      25
+                    ]
+                  }
+                },
+                {
+                  "se_type": "google",
+                  "domain": "www.myfloridacfo.com",
+                  "avg_position": 1,
+                  "median_position": 1,
+                  "rating": 99,
+                  "etv": 2462.4,
+                  "keywords_count": 1,
+                  "visibility": 1,
+                  "relevant_serp_items": 1,
+                  "keywords_positions": {
+                    "workers comp exemption": [
+                      1
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
