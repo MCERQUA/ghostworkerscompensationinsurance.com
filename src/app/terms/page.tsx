@@ -9,16 +9,16 @@ export const metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-white text-[#1e2d3d]">
+    <div className="min-h-screen bg-white text-[#2a211c]">
       <Navbar />
 
       {/* Header */}
-      <section className="pt-28 pb-12 bg-gradient-to-br from-[#0052cc] to-[#003d99]">
+      <section className="pt-28 pb-12 bg-gradient-to-br from-[#9a3412] to-[#7c2d12]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">
             Terms of Service
           </h1>
-          <p className="text-blue-100 text-lg">
+          <p className="text-amber-100 text-lg">
             Effective Date: January 1, 2024 &nbsp;|&nbsp; Contractors Choice Agency
           </p>
         </div>
@@ -27,9 +27,9 @@ export default function TermsPage() {
       {/* Content */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-none text-[#1e2d3d]">
+          <div className="max-w-none text-[#2a211c]">
 
-            <div className="bg-[#f8faff] border border-[rgba(0,82,204,0.12)] rounded-2xl p-6 mb-10 text-sm text-[#4a5568] leading-relaxed">
+            <div className="bg-[#fdfaf5] border border-[rgba(154,52,18,0.12)] rounded-2xl p-6 mb-10 text-sm text-[#57493f] leading-relaxed">
               Please read these Terms of Service carefully before using
               ghostworkerscompensationinsurance.com (the &ldquo;Site&rdquo;). By
               accessing or using the Site, you agree to be bound by these Terms. If
@@ -39,10 +39,10 @@ export default function TermsPage() {
             <div className="space-y-10">
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   1. About the Site and Operator
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   This Site is operated by Contractors Choice Agency
                   (&ldquo;CCA,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
                   &ldquo;our&rdquo;), a licensed insurance agency operating
@@ -54,14 +54,14 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   2. Use of the Site
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed mb-4">
+                <p className="text-[#57493f] leading-relaxed mb-4">
                   You may use the Site only for lawful purposes and in accordance
                   with these Terms. You agree not to:
                 </p>
-                <ul className="list-disc list-outside ml-6 space-y-2 text-[#4a5568] mb-4">
+                <ul className="list-disc list-outside ml-6 space-y-2 text-[#57493f] mb-4">
                   <li>
                     Use the Site in any way that violates applicable federal, state,
                     or local laws or regulations.
@@ -91,7 +91,7 @@ export default function TermsPage() {
                     those offered by Contractors Choice Agency.
                   </li>
                 </ul>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   We reserve the right to terminate or restrict your access to the
                   Site at any time, without notice, for any violation of these Terms
                   or for any other reason at our sole discretion.
@@ -99,17 +99,17 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   3. Insurance Information — Not Professional Advice
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed mb-4">
+                <p className="text-[#57493f] leading-relaxed mb-4">
                   The information provided on this Site is for general informational
                   and lead-generation purposes only. It is not legal advice, financial
                   advice, or a guarantee of insurance coverage. The content on this
                   Site does not constitute a binding insurance quote, offer, or
                   commitment to provide insurance.
                 </p>
-                <p className="text-[#4a5568] leading-relaxed mb-4">
+                <p className="text-[#57493f] leading-relaxed mb-4">
                   Insurance eligibility, coverage terms, premiums, and policy
                   availability vary by state, carrier, and individual circumstances.
                   A formal quote requires a complete application and underwriting
@@ -117,7 +117,7 @@ export default function TermsPage() {
                   are governed exclusively by the policy documents issued by the
                   carrier.
                 </p>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   You should not rely solely on the information presented on this
                   Site when making insurance purchasing decisions. We strongly
                   recommend consulting directly with a licensed insurance
@@ -127,13 +127,13 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   4. Quote Requests and Lead Submissions
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed mb-4">
+                <p className="text-[#57493f] leading-relaxed mb-4">
                   By submitting a quote request or contact form on this Site, you:
                 </p>
-                <ul className="list-disc list-outside ml-6 space-y-2 text-[#4a5568]">
+                <ul className="list-disc list-outside ml-6 space-y-2 text-[#57493f]">
                   <li>
                     Consent to be contacted by Contractors Choice Agency and its
                     licensed agents by phone, email, or text message regarding your
@@ -156,10 +156,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   5. Intellectual Property
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   All content on this Site — including text, graphics, logos, images,
                   and software — is the property of Contractors Choice Agency or its
                   content suppliers and is protected by applicable copyright,
@@ -171,17 +171,17 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   6. Disclaimer of Warranties
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed mb-4">
+                <p className="text-[#57493f] leading-relaxed mb-4">
                   THE SITE AND ALL CONTENT AND SERVICES PROVIDED THROUGH IT ARE
                   OFFERED ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo;
                   BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.
                   TO THE FULLEST EXTENT PERMITTED BY LAW, CONTRACTORS CHOICE AGENCY
                   DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:
                 </p>
-                <ul className="list-disc list-outside ml-6 space-y-2 text-[#4a5568]">
+                <ul className="list-disc list-outside ml-6 space-y-2 text-[#57493f]">
                   <li>
                     Implied warranties of merchantability and fitness for a
                     particular purpose.
@@ -202,10 +202,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   7. Limitation of Liability
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, CONTRACTORS
                   CHOICE AGENCY AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS,
                   LICENSORS, AND SERVICE PROVIDERS SHALL NOT BE LIABLE FOR ANY
@@ -219,10 +219,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   8. Third-Party Links and Services
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   The Site may contain links to third-party websites or services.
                   These links are provided for your convenience only. We have no
                   control over and assume no responsibility for the content, privacy
@@ -233,10 +233,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   9. Indemnification
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   You agree to indemnify, defend, and hold harmless Contractors
                   Choice Agency and its officers, directors, employees, agents, and
                   licensors from and against any claims, liabilities, damages,
@@ -247,10 +247,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   10. Governing Law and Jurisdiction
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   These Terms and any dispute arising out of or related to your use
                   of the Site shall be governed by and construed in accordance with
                   the laws of the State of Arizona, without regard to its conflict
@@ -263,10 +263,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   11. Changes to These Terms
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   We reserve the right to update or modify these Terms at any time.
                   When we make material changes, we will update the effective date at
                   the top of this page. Your continued use of the Site after any
@@ -276,10 +276,10 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   12. Severability
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed">
+                <p className="text-[#57493f] leading-relaxed">
                   If any provision of these Terms is found to be unlawful, void, or
                   unenforceable, that provision shall be deemed severable from these
                   Terms and shall not affect the validity and enforceability of the
@@ -288,18 +288,18 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-4 pb-2 border-b border-[rgba(0,82,204,0.1)]">
+                <h2 className="text-2xl font-extrabold text-[#2a211c] mb-4 pb-2 border-b border-[rgba(154,52,18,0.1)]">
                   13. Contact Us
                 </h2>
-                <p className="text-[#4a5568] leading-relaxed mb-4">
+                <p className="text-[#57493f] leading-relaxed mb-4">
                   If you have questions about these Terms of Service, please contact
                   us:
                 </p>
-                <div className="bg-[#f8faff] border border-[rgba(0,82,204,0.12)] rounded-xl p-6 text-sm text-[#4a5568] space-y-1">
-                  <p className="font-bold text-[#1e2d3d]">Contractors Choice Agency</p>
+                <div className="bg-[#fdfaf5] border border-[rgba(154,52,18,0.12)] rounded-xl p-6 text-sm text-[#57493f] space-y-1">
+                  <p className="font-bold text-[#2a211c]">Contractors Choice Agency</p>
                   <p>
                     Phone:{" "}
-                    <a href="tel:8449675247" className="text-[#0052cc] font-semibold">
+                    <a href="tel:8449675247" className="text-[#9a3412] font-semibold">
                       844-967-5247
                     </a>
                   </p>
@@ -307,7 +307,7 @@ export default function TermsPage() {
                     Email:{" "}
                     <a
                       href="mailto:info@contractorschoiceagency.com"
-                      className="text-[#0052cc]"
+                      className="text-[#9a3412]"
                     >
                       info@contractorschoiceagency.com
                     </a>

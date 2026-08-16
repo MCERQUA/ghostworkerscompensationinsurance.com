@@ -79,27 +79,27 @@ export default function AuditProtectionPage() {
 
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 hero-gradient relative overflow-hidden">
-        <div className="absolute top-20 right-10 w-72 h-72 bg-[#0052cc]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-56 h-56 bg-blue-200/30 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute top-20 right-10 w-72 h-72 bg-[#9a3412]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-56 h-56 bg-amber-200/30 rounded-full blur-2xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" animate="visible" variants={stagger}>
               <motion.span
                 variants={fadeUp}
-                className="inline-block bg-[#0052cc]/10 text-[#0052cc] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
+                className="inline-block bg-[#9a3412]/10 text-[#9a3412] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
               >
                 Retroactive Audit Defense
               </motion.span>
               <motion.h1
                 variants={fadeUp}
-                className="text-4xl lg:text-5xl font-extrabold text-[#1e2d3d] leading-tight mb-6"
+                className="text-4xl lg:text-5xl font-extrabold text-[#2a211c] leading-tight mb-6"
               >
                 Workers Comp{" "}
-                <span className="text-[#0052cc]">Audit Protection</span>{" "}
+                <span className="text-[#9a3412]">Audit Protection</span>{" "}
                 Insurance
               </motion.h1>
-              <motion.p variants={fadeUp} className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <motion.p variants={fadeUp} className="text-lg text-stone-600 mb-8 leading-relaxed">
                 Workers comp carriers audit your payroll after every policy period. When actual payroll
                 exceeds estimates — or auditors misclassify your workers — you face unexpected premium
                 bills that can reach tens of thousands of dollars. Audit protection coverage defends
@@ -108,13 +108,13 @@ export default function AuditProtectionPage() {
               <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/quote"
-                  className="inline-flex items-center justify-center gap-2 bg-[#0052cc] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#0041a8] transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-[#9a3412] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#83300f] transition-colors"
                 >
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
                   href="tel:844-967-5247"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-[#0052cc] text-[#0052cc] px-7 py-4 rounded-xl font-semibold hover:bg-[#0052cc]/5 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-[#9a3412] text-[#9a3412] px-7 py-4 rounded-xl font-semibold hover:bg-[#9a3412]/5 transition-colors"
                 >
                   <Phone className="w-5 h-5" /> 844-967-5247
                 </a>
@@ -135,12 +135,12 @@ export default function AuditProtectionPage() {
                 className="rounded-3xl shadow-2xl w-full object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
-                <div className="w-10 h-10 bg-[#0052cc]/10 rounded-full flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-[#0052cc]" />
+                <div className="w-10 h-10 bg-[#9a3412]/10 rounded-full flex items-center justify-center">
+                  <Shield className="w-5 h-5 text-[#9a3412]" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[#1e2d3d]">Audit Defense Included</p>
-                  <p className="text-xs text-gray-500">Dispute representation + premium coverage</p>
+                  <p className="text-sm font-bold text-[#2a211c]">Audit Defense Included</p>
+                  <p className="text-xs text-stone-500">Dispute representation + premium coverage</p>
                 </div>
               </div>
             </motion.div>
@@ -159,22 +159,22 @@ export default function AuditProtectionPage() {
             className="grid lg:grid-cols-2 gap-16 items-center"
           >
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">
                 How Workers Comp Audits Work
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-stone-600 leading-relaxed mb-5">
                 Workers compensation premiums are calculated as a rate per $100 of payroll, multiplied by
                 your experience modification rate (EMR) and applicable class codes. Because you don't know
                 your exact year-end payroll at policy inception, carriers charge an <strong>estimated
                 premium</strong> based on projected payroll figures.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-stone-600 leading-relaxed mb-5">
                 At policy expiration — typically 60 to 90 days after the policy period ends — the carrier
                 conducts a <strong>final payroll audit</strong>. They review your actual payroll records,
                 verify class code assignments for each employee type, and reconcile subcontractor
                 payments against certificates of insurance you collected.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-stone-600 leading-relaxed">
                 If the audit reveals you underpaid — because payroll grew, workers were reclassified into
                 higher-rated codes, or subcontractor payments were added to your payroll — you receive
                 an <strong>audit bill</strong>. These bills can range from a few hundred dollars to
@@ -183,8 +183,8 @@ export default function AuditProtectionPage() {
               </p>
             </motion.div>
             <motion.div variants={fadeUp} className="space-y-4">
-              <div className="bg-[#f8fafc] rounded-2xl p-6 border border-gray-100">
-                <h3 className="font-bold text-[#1e2d3d] mb-4">The Audit Timeline</h3>
+              <div className="bg-[#faf8f5] rounded-2xl p-6 border border-stone-100">
+                <h3 className="font-bold text-[#2a211c] mb-4">The Audit Timeline</h3>
                 <div className="space-y-3">
                   {[
                     { phase: "Policy Inception", detail: "Estimated premium charged based on projected payroll" },
@@ -195,12 +195,12 @@ export default function AuditProtectionPage() {
                     { phase: "Payment / Dispute", detail: "Pay the final bill or initiate a formal audit dispute" },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-3">
-                      <div className="w-6 h-6 rounded-full bg-[#0052cc] text-white text-xs flex items-center justify-center font-bold flex-shrink-0 mt-0.5">
+                      <div className="w-6 h-6 rounded-full bg-[#9a3412] text-white text-xs flex items-center justify-center font-bold flex-shrink-0 mt-0.5">
                         {i + 1}
                       </div>
                       <div>
-                        <span className="font-semibold text-[#1e2d3d] text-sm">{item.phase}:</span>{" "}
-                        <span className="text-gray-600 text-sm">{item.detail}</span>
+                        <span className="font-semibold text-[#2a211c] text-sm">{item.phase}:</span>{" "}
+                        <span className="text-stone-600 text-sm">{item.detail}</span>
                       </div>
                     </div>
                   ))}
@@ -212,7 +212,7 @@ export default function AuditProtectionPage() {
       </section>
 
       {/* ── Audit Triggers ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -221,10 +221,10 @@ export default function AuditProtectionPage() {
             variants={stagger}
             className="text-center mb-14"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               What Triggers a WC Audit Investigation?
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               Some businesses face routine annual audits; others are flagged for intensive investigation
               based on specific risk signals that carriers monitor throughout the policy period.
             </motion.p>
@@ -240,13 +240,13 @@ export default function AuditProtectionPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                className="bg-white rounded-2xl p-6 border border-stone-100 shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="w-12 h-12 bg-[#0052cc]/10 rounded-xl flex items-center justify-center mb-4">
-                  <item.icon className="w-6 h-6 text-[#0052cc]" />
+                <div className="w-12 h-12 bg-[#9a3412]/10 rounded-xl flex items-center justify-center mb-4">
+                  <item.icon className="w-6 h-6 text-[#9a3412]" />
                 </div>
-                <h3 className="text-base font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                <h3 className="text-base font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -263,10 +263,10 @@ export default function AuditProtectionPage() {
             variants={stagger}
             className="text-center mb-14"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               What Audit Protection Covers
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               Audit protection insurance addresses both the financial exposure and the legal costs
               of defending against incorrect or excessive audit findings.
             </motion.p>
@@ -282,11 +282,11 @@ export default function AuditProtectionPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="p-6 rounded-2xl border-2 border-[#0052cc]/15 bg-[#f8fafc] hover:border-[#0052cc]/40 hover:shadow-md transition-all"
+                className="p-6 rounded-2xl border-2 border-[#9a3412]/15 bg-[#faf8f5] hover:border-[#9a3412]/40 hover:shadow-md transition-all"
               >
-                <CheckCircle className="w-7 h-7 text-[#0052cc] mb-4" />
-                <h3 className="font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                <CheckCircle className="w-7 h-7 text-[#9a3412] mb-4" />
+                <h3 className="font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -294,7 +294,7 @@ export default function AuditProtectionPage() {
       </section>
 
       {/* ── Dispute Process ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -303,10 +303,10 @@ export default function AuditProtectionPage() {
             variants={stagger}
             className="text-center mb-14"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               The Audit Dispute Process
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               When audit findings are inaccurate, you have defined rights to dispute them. Here's how
               a successful audit dispute unfolds — with CCA and your audit protection coverage in your corner.
             </motion.p>
@@ -322,12 +322,12 @@ export default function AuditProtectionPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm relative overflow-hidden"
+                className="bg-white rounded-2xl p-6 border border-stone-100 shadow-sm relative overflow-hidden"
               >
-                <div className="absolute top-0 right-0 w-16 h-16 bg-[#0052cc]/5 rounded-bl-3xl" />
-                <div className="text-4xl font-extrabold text-[#0052cc]/15 mb-3">{step.num}</div>
-                <h3 className="font-bold text-[#1e2d3d] mb-2">{step.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{step.desc}</p>
+                <div className="absolute top-0 right-0 w-16 h-16 bg-[#9a3412]/5 rounded-bl-3xl" />
+                <div className="text-4xl font-extrabold text-[#9a3412]/15 mb-3">{step.num}</div>
+                <h3 className="font-bold text-[#2a211c] mb-2">{step.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{step.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -345,22 +345,22 @@ export default function AuditProtectionPage() {
             className="grid lg:grid-cols-2 gap-16 items-center"
           >
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">
                 Why CCA for Audit Protection?
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-stone-600 leading-relaxed mb-5">
                 Contractors Choice Agency specializes in workers compensation audit defense and retroactive
                 exposure coverage. Our specialists have navigated hundreds of carrier audits, NCCI
                 reclassification disputes, and state bureau appeals across every major industry class code.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="text-stone-600 leading-relaxed mb-6">
                 We don't just sell audit protection coverage — we actively work with you when an audit
                 arrives, helping you organize documentation, identify audit errors, and build a compelling
                 dispute that protects your bottom line.
               </p>
               <a
                 href="tel:844-967-5247"
-                className="inline-flex items-center gap-2 text-[#0052cc] font-semibold hover:underline"
+                className="inline-flex items-center gap-2 text-[#9a3412] font-semibold hover:underline"
               >
                 <Phone className="w-5 h-5" /> Call 844-967-5247 to speak with an audit specialist
               </a>
@@ -374,9 +374,9 @@ export default function AuditProtectionPage() {
                 "Multi-state audit coordination for complex programs",
                 "Documented track record of reducing audit assessments",
               ].map((item, i) => (
-                <div key={i} className="flex items-center gap-3 p-4 bg-[#f8fafc] rounded-xl border border-gray-100">
-                  <CheckCircle className="w-5 h-5 text-[#0052cc] flex-shrink-0" />
-                  <p className="text-[#1e2d3d] font-medium text-sm">{item}</p>
+                <div key={i} className="flex items-center gap-3 p-4 bg-[#faf8f5] rounded-xl border border-stone-100">
+                  <CheckCircle className="w-5 h-5 text-[#9a3412] flex-shrink-0" />
+                  <p className="text-[#2a211c] font-medium text-sm">{item}</p>
                 </div>
               ))}
             </motion.div>
@@ -385,25 +385,25 @@ export default function AuditProtectionPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-12">
-            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#1e2d3d] mb-4">Frequently Asked Questions</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600">Common questions about workers comp audits and audit protection coverage.</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#2a211c] mb-4">Frequently Asked Questions</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600">Common questions about workers comp audits and audit protection coverage.</motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="space-y-3">
             {faqItems.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl border border-stone-100 overflow-hidden shadow-sm">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-6 text-left"
                 >
-                  <span className="font-semibold text-[#1e2d3d] pr-4">{item.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-[#0052cc] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`} />
+                  <span className="font-semibold text-[#2a211c] pr-4">{item.q}</span>
+                  <ChevronDown className={`w-5 h-5 text-[#9a3412] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`} />
                 </button>
                 {openFaq === i && (
                   <div className="px-6 pb-6">
-                    <p className="text-gray-600 leading-relaxed text-sm">{item.a}</p>
+                    <p className="text-stone-600 leading-relaxed text-sm">{item.a}</p>
                   </div>
                 )}
               </motion.div>
@@ -413,18 +413,18 @@ export default function AuditProtectionPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-20 bg-[#0052cc]">
+      <section className="py-20 bg-[#9a3412]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-white mb-4">
               Don't Face an Audit Alone
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-blue-200 text-lg mb-8 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-amber-200 text-lg mb-8 max-w-2xl mx-auto">
               An unexpected audit bill can threaten your business. Get audit protection coverage today
               and have a team of specialists ready when your carrier comes calling.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#0052cc] px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors">
+              <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#9a3412] px-8 py-4 rounded-xl font-bold hover:bg-amber-50 transition-colors">
                 Get a Free Quote <ArrowRight className="w-5 h-5" />
               </Link>
               <a href="tel:844-967-5247" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-colors">

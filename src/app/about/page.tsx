@@ -102,11 +102,11 @@ const carriers = [
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-white text-[#1e2d3d]">
+    <div className="min-h-screen bg-white text-[#2a211c]">
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-28 pb-20 bg-gradient-to-br from-[#0052cc] via-[#0047b3] to-[#003d99] overflow-hidden">
+      <section className="relative pt-28 pb-20 bg-gradient-to-br from-[#9a3412] via-[#8a3410] to-[#7c2d12] overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-white/20 blur-3xl -translate-y-1/2 translate-x-1/4" />
           <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-white/10 blur-3xl translate-y-1/2 -translate-x-1/4" />
@@ -119,8 +119,8 @@ export default function AboutPage() {
             className="max-w-3xl"
           >
             <motion.div variants={fadeUp} className="flex items-center gap-2 mb-4">
-              <Shield className="w-5 h-5 text-blue-200" />
-              <span className="text-blue-200 text-sm font-medium tracking-wide uppercase">
+              <Shield className="w-5 h-5 text-amber-200" />
+              <span className="text-amber-200 text-sm font-medium tracking-wide uppercase">
                 Contractors Choice Agency
               </span>
             </motion.div>
@@ -130,11 +130,11 @@ export default function AboutPage() {
             >
               Former Contractors.
               <br />
-              <span className="text-blue-200">Insurance Specialists.</span>
+              <span className="text-amber-200">Insurance Specialists.</span>
             </motion.h1>
             <motion.p
               variants={fadeUp}
-              className="text-xl text-blue-100 leading-relaxed mb-8"
+              className="text-xl text-amber-100 leading-relaxed mb-8"
             >
               Contractors Choice Agency was built by people who worked in the trades
               before they worked in insurance. We understand certificate requirements,
@@ -144,7 +144,7 @@ export default function AboutPage() {
             <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
               <Link
                 href="/quote"
-                className="inline-flex items-center gap-2 bg-white text-[#0052cc] px-8 py-4 rounded-xl font-bold text-sm hover:bg-blue-50 transition-colors shadow-lg"
+                className="inline-flex items-center gap-2 bg-white text-[#9a3412] px-8 py-4 rounded-xl font-bold text-sm hover:bg-amber-50 transition-colors shadow-lg"
               >
                 Get a Free Quote
               </Link>
@@ -161,9 +161,9 @@ export default function AboutPage() {
       </section>
 
       {/* Trust badges row */}
-      <section className="bg-[#f0f6ff] border-b border-[rgba(0,82,204,0.12)]">
+      <section className="bg-[#fdf6ec] border-b border-[rgba(154,52,18,0.12)]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-sm font-semibold text-[#1e2d3d]">
+          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-sm font-semibold text-[#2a211c]">
             {[
               { icon: Globe, label: "Licensed All 50 States" },
               { icon: Award, label: "20+ Years Experience" },
@@ -171,7 +171,7 @@ export default function AboutPage() {
               { icon: Star, label: "A-Rated Carriers Only" },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2">
-                <Icon className="w-5 h-5 text-[#0052cc]" />
+                <Icon className="w-5 h-5 text-[#9a3412]" />
                 <span>{label}</span>
               </div>
             ))}
@@ -190,18 +190,18 @@ export default function AboutPage() {
               variants={stagger}
             >
               <motion.div variants={fadeUp} className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
-                <span className="text-[#0052cc] text-sm font-semibold uppercase tracking-wide">
+                <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
+                <span className="text-[#9a3412] text-sm font-semibold uppercase tracking-wide">
                   Our Story
                 </span>
               </motion.div>
               <motion.h2
                 variants={fadeUp}
-                className="text-3xl sm:text-4xl font-extrabold text-[#1e2d3d] mb-6"
+                className="text-3xl sm:text-4xl font-extrabold text-[#2a211c] mb-6"
               >
                 Built on a Problem We Experienced Firsthand
               </motion.h2>
-              <motion.div variants={fadeUp} className="space-y-4 text-[#4a5568] leading-relaxed">
+              <motion.div variants={fadeUp} className="space-y-4 text-[#57493f] leading-relaxed">
                 <p>
                   The founders of Contractors Choice Agency didn't start in insurance —
                   they started in the trades. General contracting, subcontracting,
@@ -242,15 +242,15 @@ export default function AboutPage() {
                   fill
                   className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0052cc]/30 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#9a3412]/30 to-transparent" />
               </div>
-              <div className="absolute -bottom-5 -left-5 bg-[#0052cc] text-white rounded-xl px-6 py-4 shadow-xl">
+              <div className="absolute -bottom-5 -left-5 bg-[#9a3412] text-white rounded-xl px-6 py-4 shadow-xl">
                 <div className="text-3xl font-extrabold">20+</div>
-                <div className="text-sm text-blue-200 font-medium">Years in business</div>
+                <div className="text-sm text-amber-200 font-medium">Years in business</div>
               </div>
-              <div className="absolute -top-5 -right-5 bg-white border border-[rgba(0,82,204,0.15)] rounded-xl px-6 py-4 shadow-xl">
-                <div className="text-3xl font-extrabold text-[#0052cc]">50</div>
-                <div className="text-sm text-[#4a5568] font-medium">States licensed</div>
+              <div className="absolute -top-5 -right-5 bg-white border border-[rgba(154,52,18,0.15)] rounded-xl px-6 py-4 shadow-xl">
+                <div className="text-3xl font-extrabold text-[#9a3412]">50</div>
+                <div className="text-sm text-[#57493f] font-medium">States licensed</div>
               </div>
             </motion.div>
           </div>
@@ -258,7 +258,7 @@ export default function AboutPage() {
       </section>
 
       {/* Credentials */}
-      <section className="py-20 bg-[#f8faff]">
+      <section className="py-20 bg-[#fdfaf5]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -268,21 +268,21 @@ export default function AboutPage() {
             className="text-center mb-14"
           >
             <motion.div variants={fadeUp} className="flex items-center justify-center gap-2 mb-4">
-              <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
-              <span className="text-[#0052cc] text-sm font-semibold uppercase tracking-wide">
+              <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
+              <span className="text-[#9a3412] text-sm font-semibold uppercase tracking-wide">
                 Credentials & Trust
               </span>
-              <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
+              <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
             </motion.div>
             <motion.h2
               variants={fadeUp}
-              className="text-3xl sm:text-4xl font-extrabold text-[#1e2d3d] mb-4"
+              className="text-3xl sm:text-4xl font-extrabold text-[#2a211c] mb-4"
             >
               Why Contractors Trust Us
             </motion.h2>
             <motion.p
               variants={fadeUp}
-              className="text-lg text-[#4a5568] max-w-2xl mx-auto"
+              className="text-lg text-[#57493f] max-w-2xl mx-auto"
             >
               Our credentials aren't just bullet points — they're the result of two
               decades of specialization in a product most agencies don't understand.
@@ -296,13 +296,13 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.08, duration: 0.5 }}
-                className="bg-white rounded-2xl p-6 border border-[rgba(0,82,204,0.1)] hover:border-[rgba(0,82,204,0.3)] hover:shadow-lg transition-all"
+                className="bg-white rounded-2xl p-6 border border-[rgba(154,52,18,0.1)] hover:border-[rgba(154,52,18,0.3)] hover:shadow-lg transition-all"
               >
-                <div className="w-12 h-12 bg-[#f0f6ff] rounded-xl flex items-center justify-center mb-4">
-                  <cred.icon className="w-6 h-6 text-[#0052cc]" />
+                <div className="w-12 h-12 bg-[#fdf6ec] rounded-xl flex items-center justify-center mb-4">
+                  <cred.icon className="w-6 h-6 text-[#9a3412]" />
                 </div>
-                <h3 className="text-lg font-bold text-[#1e2d3d] mb-2">{cred.title}</h3>
-                <p className="text-sm text-[#4a5568] leading-relaxed">{cred.description}</p>
+                <h3 className="text-lg font-bold text-[#2a211c] mb-2">{cred.title}</h3>
+                <p className="text-sm text-[#57493f] leading-relaxed">{cred.description}</p>
               </motion.div>
             ))}
           </div>
@@ -320,21 +320,21 @@ export default function AboutPage() {
             className="text-center mb-14"
           >
             <motion.div variants={fadeUp} className="flex items-center justify-center gap-2 mb-4">
-              <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
-              <span className="text-[#0052cc] text-sm font-semibold uppercase tracking-wide">
+              <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
+              <span className="text-[#9a3412] text-sm font-semibold uppercase tracking-wide">
                 Specialization Matters
               </span>
-              <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
+              <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
             </motion.div>
             <motion.h2
               variants={fadeUp}
-              className="text-3xl sm:text-4xl font-extrabold text-[#1e2d3d] mb-4"
+              className="text-3xl sm:text-4xl font-extrabold text-[#2a211c] mb-4"
             >
               Why Work With a Ghost WC Specialist?
             </motion.h2>
             <motion.p
               variants={fadeUp}
-              className="text-lg text-[#4a5568] max-w-2xl mx-auto"
+              className="text-lg text-[#57493f] max-w-2xl mx-auto"
             >
               Ghost workers comp is a niche product. Getting it wrong has real
               consequences — voided certificates, failed audits, unexpected liability.
@@ -351,12 +351,12 @@ export default function AboutPage() {
                 transition={{ delay: i * 0.1, duration: 0.5 }}
                 className="flex gap-5"
               >
-                <div className="flex-shrink-0 w-12 h-12 bg-[#0052cc] rounded-xl flex items-center justify-center shadow-md">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#9a3412] rounded-xl flex items-center justify-center shadow-md">
                   <item.icon className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-[#1e2d3d] mb-2">{item.heading}</h3>
-                  <p className="text-[#4a5568] leading-relaxed text-sm">{item.body}</p>
+                  <h3 className="text-lg font-bold text-[#2a211c] mb-2">{item.heading}</h3>
+                  <p className="text-[#57493f] leading-relaxed text-sm">{item.body}</p>
                 </div>
               </motion.div>
             ))}
@@ -365,7 +365,7 @@ export default function AboutPage() {
       </section>
 
       {/* Carriers We Work With */}
-      <section className="py-20 bg-gradient-to-br from-[#0052cc] to-[#003d99]">
+      <section className="py-20 bg-gradient-to-br from-[#9a3412] to-[#7c2d12]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -375,11 +375,11 @@ export default function AboutPage() {
             className="text-center mb-12"
           >
             <motion.div variants={fadeUp} className="flex items-center justify-center gap-2 mb-4">
-              <div className="w-8 h-1 bg-blue-300 rounded-full" />
-              <span className="text-blue-200 text-sm font-semibold uppercase tracking-wide">
+              <div className="w-8 h-1 bg-amber-300 rounded-full" />
+              <span className="text-amber-200 text-sm font-semibold uppercase tracking-wide">
                 Our Carriers
               </span>
-              <div className="w-8 h-1 bg-blue-300 rounded-full" />
+              <div className="w-8 h-1 bg-amber-300 rounded-full" />
             </motion.div>
             <motion.h2
               variants={fadeUp}
@@ -389,7 +389,7 @@ export default function AboutPage() {
             </motion.h2>
             <motion.p
               variants={fadeUp}
-              className="text-blue-100 text-lg max-w-2xl mx-auto"
+              className="text-amber-100 text-lg max-w-2xl mx-auto"
             >
               We maintain relationships with A-rated admitted carriers that specialize
               in contractor and ghost WC products — the markets that understand your
@@ -406,7 +406,7 @@ export default function AboutPage() {
                 transition={{ delay: i * 0.07, duration: 0.4 }}
                 className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-5 py-4"
               >
-                <CheckCircle className="w-5 h-5 text-blue-300 flex-shrink-0" />
+                <CheckCircle className="w-5 h-5 text-amber-300 flex-shrink-0" />
                 <span className="text-white font-medium text-sm">{item}</span>
               </motion.div>
             ))}
@@ -416,7 +416,7 @@ export default function AboutPage() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="text-center text-blue-200 text-sm mt-8 max-w-xl mx-auto"
+            className="text-center text-amber-200 text-sm mt-8 max-w-xl mx-auto"
           >
             We don't publish specific carrier names publicly. Contact us for a quote
             and we'll match you with the right market for your state and situation.
@@ -434,21 +434,21 @@ export default function AboutPage() {
             variants={stagger}
           >
             <motion.div variants={fadeUp} className="flex items-center justify-center gap-2 mb-4">
-              <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
-              <span className="text-[#0052cc] text-sm font-semibold uppercase tracking-wide">
+              <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
+              <span className="text-[#9a3412] text-sm font-semibold uppercase tracking-wide">
                 Ready to Get Started?
               </span>
-              <div className="w-8 h-1 bg-[#0052cc] rounded-full" />
+              <div className="w-8 h-1 bg-[#9a3412] rounded-full" />
             </motion.div>
             <motion.h2
               variants={fadeUp}
-              className="text-3xl sm:text-4xl font-extrabold text-[#1e2d3d] mb-4"
+              className="text-3xl sm:text-4xl font-extrabold text-[#2a211c] mb-4"
             >
               Talk to a Ghost WC Specialist Today
             </motion.h2>
             <motion.p
               variants={fadeUp}
-              className="text-lg text-[#4a5568] mb-8 max-w-xl mx-auto"
+              className="text-lg text-[#57493f] mb-8 max-w-xl mx-auto"
             >
               Whether you need a ghost policy for an upcoming contract or you're
               facing a WC audit, our specialists can help. Free consultation, no
@@ -457,21 +457,21 @@ export default function AboutPage() {
             <motion.div variants={fadeUp} className="flex flex-wrap justify-center gap-4">
               <Link
                 href="/quote"
-                className="inline-flex items-center gap-2 bg-[#0052cc] text-white px-8 py-4 rounded-xl font-bold text-sm hover:bg-[#0047b3] transition-colors shadow-lg shadow-[#0052cc]/20"
+                className="inline-flex items-center gap-2 bg-[#9a3412] text-white px-8 py-4 rounded-xl font-bold text-sm hover:bg-[#8a3410] transition-colors shadow-lg shadow-[#9a3412]/20"
               >
                 Get a Free Quote
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 border-2 border-[#0052cc] text-[#0052cc] px-8 py-4 rounded-xl font-bold text-sm hover:bg-[#f0f6ff] transition-colors"
+                className="inline-flex items-center gap-2 border-2 border-[#9a3412] text-[#9a3412] px-8 py-4 rounded-xl font-bold text-sm hover:bg-[#fdf6ec] transition-colors"
               >
                 Contact Us
               </Link>
               <a
                 href="tel:8449675247"
-                className="inline-flex items-center gap-2 bg-[#f8faff] border border-[rgba(0,82,204,0.2)] text-[#1e2d3d] px-8 py-4 rounded-xl font-bold text-sm hover:border-[#0052cc] transition-colors"
+                className="inline-flex items-center gap-2 bg-[#fdfaf5] border border-[rgba(154,52,18,0.2)] text-[#2a211c] px-8 py-4 rounded-xl font-bold text-sm hover:border-[#9a3412] transition-colors"
               >
-                <Phone className="w-4 h-4 text-[#0052cc]" />
+                <Phone className="w-4 h-4 text-[#9a3412]" />
                 844-967-5247
               </a>
             </motion.div>

@@ -79,26 +79,26 @@ export default function PayrollFraudPage() {
 
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 hero-gradient relative overflow-hidden">
-        <div className="absolute top-20 right-10 w-72 h-72 bg-[#0052cc]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-56 h-56 bg-blue-200/30 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute top-20 right-10 w-72 h-72 bg-[#9a3412]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-56 h-56 bg-amber-200/30 rounded-full blur-2xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" animate="visible" variants={stagger}>
               <motion.span
                 variants={fadeUp}
-                className="inline-block bg-[#0052cc]/10 text-[#0052cc] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
+                className="inline-block bg-[#9a3412]/10 text-[#9a3412] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
               >
                 Fraud Protection
               </motion.span>
               <motion.h1
                 variants={fadeUp}
-                className="text-4xl lg:text-5xl font-extrabold text-[#1e2d3d] leading-tight mb-6"
+                className="text-4xl lg:text-5xl font-extrabold text-[#2a211c] leading-tight mb-6"
               >
                 Payroll Fraud &amp; Ghost Employee{" "}
-                <span className="text-[#0052cc]">Workers Comp Insurance</span>
+                <span className="text-[#9a3412]">Workers Comp Insurance</span>
               </motion.h1>
-              <motion.p variants={fadeUp} className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <motion.p variants={fadeUp} className="text-lg text-stone-600 mb-8 leading-relaxed">
                 Payroll fraud in the workers comp context exposes businesses to rescinded policies, criminal
                 charges, and massive retroactive premium demands. Whether the issue is intentional fraud or
                 inadvertent misclassification, understanding your exposure — and your coverage options — is critical.
@@ -106,13 +106,13 @@ export default function PayrollFraudPage() {
               <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/quote"
-                  className="inline-flex items-center justify-center gap-2 bg-[#0052cc] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#0041a8] transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-[#9a3412] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#83300f] transition-colors"
                 >
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
                   href="tel:844-967-5247"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-[#0052cc] text-[#0052cc] px-7 py-4 rounded-xl font-semibold hover:bg-[#0052cc]/5 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-[#9a3412] text-[#9a3412] px-7 py-4 rounded-xl font-semibold hover:bg-[#9a3412]/5 transition-colors"
                 >
                   <Phone className="w-5 h-5" /> 844-967-5247
                 </a>
@@ -137,8 +137,8 @@ export default function PayrollFraudPage() {
                   <AlertTriangle className="w-5 h-5 text-amber-600" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[#1e2d3d]">High Exposure Risk</p>
-                  <p className="text-xs text-gray-500">Audit protection + misclassification defense</p>
+                  <p className="text-sm font-bold text-[#2a211c]">High Exposure Risk</p>
+                  <p className="text-xs text-stone-500">Audit protection + misclassification defense</p>
                 </div>
               </div>
             </motion.div>
@@ -150,21 +150,21 @@ export default function PayrollFraudPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-12">
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               What Is Payroll Fraud in Workers Comp?
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               In the workers comp insurance context, payroll fraud takes two primary forms — each with distinct
               causes, consequences, and coverage implications.
             </motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid lg:grid-cols-2 gap-8">
-            <motion.div variants={fadeUp} className="bg-[#f8fafc] rounded-3xl p-8 border border-gray-100">
+            <motion.div variants={fadeUp} className="bg-[#faf8f5] rounded-3xl p-8 border border-stone-100">
               <div className="w-14 h-14 bg-red-100 rounded-2xl flex items-center justify-center mb-6">
                 <UserX className="w-7 h-7 text-red-600" />
               </div>
-              <h3 className="text-xl font-extrabold text-[#1e2d3d] mb-3">Type 1: Ghost Employee Payroll Fraud</h3>
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <h3 className="text-xl font-extrabold text-[#2a211c] mb-3">Type 1: Ghost Employee Payroll Fraud</h3>
+              <p className="text-stone-600 leading-relaxed mb-4 text-sm">
                 A fictitious or former employee is added to payroll to divert wages to an unauthorized recipient —
                 typically someone with access to the payroll system. The "employee" never shows up, never performs
                 work, but collects a paycheck. This scheme inflates the reported payroll, paradoxically increasing
@@ -174,12 +174,12 @@ export default function PayrollFraudPage() {
                 <p className="text-xs text-red-800 font-medium">Who's at risk: Businesses with weak internal payroll controls and limited HR oversight of payroll additions.</p>
               </div>
             </motion.div>
-            <motion.div variants={fadeUp} className="bg-[#f8fafc] rounded-3xl p-8 border border-gray-100">
+            <motion.div variants={fadeUp} className="bg-[#faf8f5] rounded-3xl p-8 border border-stone-100">
               <div className="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mb-6">
                 <Calculator className="w-7 h-7 text-orange-600" />
               </div>
-              <h3 className="text-xl font-extrabold text-[#1e2d3d] mb-3">Type 2: Payroll Underreporting Fraud</h3>
-              <p className="text-gray-600 leading-relaxed mb-4 text-sm">
+              <h3 className="text-xl font-extrabold text-[#2a211c] mb-3">Type 2: Payroll Underreporting Fraud</h3>
+              <p className="text-stone-600 leading-relaxed mb-4 text-sm">
                 An employer deliberately understates payroll figures provided to the workers comp carrier —
                 paying workers in cash off the books, misreporting job classifications into lower-rated codes,
                 or excluding entire employee classes from the reported payroll. This reduces WC premiums
@@ -194,14 +194,14 @@ export default function PayrollFraudPage() {
       </section>
 
       {/* ── Ghost Employee Definition ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="max-w-4xl mx-auto">
-            <motion.div variants={fadeUp} className="bg-white rounded-3xl p-8 border-2 border-[#0052cc]/20 shadow-sm">
-              <div className="inline-flex items-center gap-2 bg-[#0052cc]/10 text-[#0052cc] px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
+            <motion.div variants={fadeUp} className="bg-white rounded-3xl p-8 border-2 border-[#9a3412]/20 shadow-sm">
+              <div className="inline-flex items-center gap-2 bg-[#9a3412]/10 text-[#9a3412] px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
                 <FileWarning className="w-4 h-4" /> Important Distinction
               </div>
-              <h2 className="text-3xl font-extrabold text-[#1e2d3d] mb-6">The Two Meanings of "Ghost Employee"</h2>
+              <h2 className="text-3xl font-extrabold text-[#2a211c] mb-6">The Two Meanings of "Ghost Employee"</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-red-50 rounded-2xl p-6 border border-red-100">
                   <h3 className="font-bold text-red-800 mb-3">Fraudulent Ghost Employee</h3>
@@ -221,7 +221,7 @@ export default function PayrollFraudPage() {
                   </p>
                 </div>
               </div>
-              <p className="text-gray-600 text-sm mt-6 leading-relaxed">
+              <p className="text-stone-600 text-sm mt-6 leading-relaxed">
                 When evaluating your workers comp exposure, it is essential to understand which definition
                 applies to your situation. CCA specialists can help clarify the right coverage structure —
                 whether you need a legitimate ghost policy for COI purposes or audit protection against
@@ -236,8 +236,8 @@ export default function PayrollFraudPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-14">
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">Employer Exposure: What's at Stake</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">When payroll fraud — intentional or inadvertent — is discovered, the consequences are severe and multi-dimensional.</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">Employer Exposure: What's at Stake</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">When payroll fraud — intentional or inadvertent — is discovered, the consequences are severe and multi-dimensional.</motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {employerRisks.map((item, i) => (
@@ -245,8 +245,8 @@ export default function PayrollFraudPage() {
                 <div className={`w-12 h-12 ${item.iconBg} rounded-xl flex items-center justify-center mb-4`}>
                   <item.icon className={`w-6 h-6 ${item.iconColor}`} />
                 </div>
-                <h3 className="font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                <h3 className="font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -254,18 +254,18 @@ export default function PayrollFraudPage() {
       </section>
 
       {/* ── What Coverage Protects ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-14">
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">What Coverage Addresses This</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">Audit protection and misclassification coverage provide a financial backstop against the retroactive costs of payroll discrepancies — both fraudulent and inadvertent.</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">What Coverage Addresses This</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">Audit protection and misclassification coverage provide a financial backstop against the retroactive costs of payroll discrepancies — both fraudulent and inadvertent.</motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {coverageProtections.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl p-6 border-2 border-[#0052cc]/15 hover:border-[#0052cc]/40 transition-colors shadow-sm">
-                <CheckCircle className="w-7 h-7 text-[#0052cc] mb-4" />
-                <h3 className="font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl p-6 border-2 border-[#9a3412]/15 hover:border-[#9a3412]/40 transition-colors shadow-sm">
+                <CheckCircle className="w-7 h-7 text-[#9a3412] mb-4" />
+                <h3 className="font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -277,13 +277,13 @@ export default function PayrollFraudPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">Red Flags Carriers Look For</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">Red Flags Carriers Look For</h2>
+              <p className="text-stone-600 leading-relaxed mb-6">
                 Workers comp carriers and their Special Investigations Units (SIUs) use sophisticated analytics
                 to identify payroll anomalies. Understanding what triggers scrutiny helps you ensure your
                 payroll practices are compliant and defensible.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-stone-600 leading-relaxed">
                 If your business exhibits any of these patterns — even innocently — you may face an
                 intensive audit. Audit protection coverage and clean payroll documentation are your
                 best defenses.
@@ -302,22 +302,22 @@ export default function PayrollFraudPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-12">
-            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#1e2d3d] mb-4">Frequently Asked Questions</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600">Common questions about payroll fraud and ghost employee exposure in workers comp.</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#2a211c] mb-4">Frequently Asked Questions</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600">Common questions about payroll fraud and ghost employee exposure in workers comp.</motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="space-y-3">
             {faqItems.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl border border-stone-100 overflow-hidden shadow-sm">
                 <button onClick={() => setOpenFaq(openFaq === i ? null : i)} className="w-full flex items-center justify-between p-6 text-left">
-                  <span className="font-semibold text-[#1e2d3d] pr-4">{item.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-[#0052cc] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`} />
+                  <span className="font-semibold text-[#2a211c] pr-4">{item.q}</span>
+                  <ChevronDown className={`w-5 h-5 text-[#9a3412] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`} />
                 </button>
                 {openFaq === i && (
                   <div className="px-6 pb-6">
-                    <p className="text-gray-600 leading-relaxed text-sm">{item.a}</p>
+                    <p className="text-stone-600 leading-relaxed text-sm">{item.a}</p>
                   </div>
                 )}
               </motion.div>
@@ -327,16 +327,16 @@ export default function PayrollFraudPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-20 bg-[#0052cc]">
+      <section className="py-20 bg-[#9a3412]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-white mb-4">Protect Against Payroll Audit Exposure</motion.h2>
-            <motion.p variants={fadeUp} className="text-blue-200 text-lg mb-8 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-amber-200 text-lg mb-8 max-w-2xl mx-auto">
               Whether you're concerned about internal fraud controls or carrier audit exposure, CCA's specialists can
               structure the right audit protection and misclassification coverage for your business.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#0052cc] px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors">
+              <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#9a3412] px-8 py-4 rounded-xl font-bold hover:bg-amber-50 transition-colors">
                 Get a Free Quote <ArrowRight className="w-5 h-5" />
               </Link>
               <a href="tel:844-967-5247" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-colors">

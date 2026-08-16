@@ -46,9 +46,9 @@ interface FormData {
 }
 
 const inputClass =
-  "w-full px-4 py-3 rounded-xl border border-[rgba(0,82,204,0.2)] bg-white/80 text-[#1e2d3d] placeholder-[#94a3b8] focus:outline-none focus:border-[#0052cc] focus:ring-2 focus:ring-[#0052cc]/20 transition-all text-sm";
+  "w-full px-4 py-3 rounded-xl border border-[rgba(154,52,18,0.2)] bg-white/80 text-[#2a211c] placeholder-[#a89a8c] focus:outline-none focus:border-[#9a3412] focus:ring-2 focus:ring-[#9a3412]/20 transition-all text-sm";
 
-const labelClass = "block text-sm font-semibold text-[#1e2d3d] mb-1.5";
+const labelClass = "block text-sm font-semibold text-[#2a211c] mb-1.5";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState<FormData>({
@@ -97,19 +97,19 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-[#1e2d3d]">
+    <div className="min-h-screen bg-white text-[#2a211c]">
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-28 pb-16 bg-gradient-to-br from-[#0052cc] via-[#0047b3] to-[#003d99] overflow-hidden">
+      <section className="relative pt-28 pb-16 bg-gradient-to-br from-[#9a3412] via-[#8a3410] to-[#7c2d12] overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-white/20 blur-3xl -translate-y-1/2 translate-x-1/4" />
         </div>
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial="hidden" animate="visible" variants={stagger}>
             <motion.div variants={fadeUp} className="flex items-center justify-center gap-2 mb-4">
-              <Shield className="w-5 h-5 text-blue-200" />
-              <span className="text-blue-200 text-sm font-medium tracking-wide uppercase">
+              <Shield className="w-5 h-5 text-amber-200" />
+              <span className="text-amber-200 text-sm font-medium tracking-wide uppercase">
                 Contractors Choice Agency
               </span>
             </motion.div>
@@ -121,7 +121,7 @@ export default function ContactPage() {
             </motion.h1>
             <motion.p
               variants={fadeUp}
-              className="text-blue-100 text-lg max-w-xl mx-auto"
+              className="text-amber-100 text-lg max-w-xl mx-auto"
             >
               Reach our ghost WC specialists by phone, email, or the form below.
               We respond same business day.
@@ -145,18 +145,18 @@ export default function ContactPage() {
               {/* Phone */}
               <motion.div
                 variants={fadeUp}
-                className="bg-[#0052cc] rounded-2xl p-6 text-white shadow-lg shadow-[#0052cc]/20"
+                className="bg-[#9a3412] rounded-2xl p-6 text-white shadow-lg shadow-[#9a3412]/20"
               >
                 <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center mb-4">
                   <Phone className="w-5 h-5 text-white" />
                 </div>
                 <h3 className="font-bold text-lg mb-1">Call Us Directly</h3>
-                <p className="text-blue-100 text-sm mb-3">
+                <p className="text-amber-100 text-sm mb-3">
                   Speak with a specialist immediately.
                 </p>
                 <a
                   href="tel:8449675247"
-                  className="text-2xl font-extrabold hover:text-blue-200 transition-colors"
+                  className="text-2xl font-extrabold hover:text-amber-200 transition-colors"
                 >
                   844-967-5247
                 </a>
@@ -165,18 +165,18 @@ export default function ContactPage() {
               {/* Email */}
               <motion.div
                 variants={fadeUp}
-                className="bg-white rounded-2xl p-6 border border-[rgba(0,82,204,0.15)] shadow-sm"
+                className="bg-white rounded-2xl p-6 border border-[rgba(154,52,18,0.15)] shadow-sm"
               >
-                <div className="w-10 h-10 bg-[#f0f6ff] rounded-xl flex items-center justify-center mb-4">
-                  <Mail className="w-5 h-5 text-[#0052cc]" />
+                <div className="w-10 h-10 bg-[#fdf6ec] rounded-xl flex items-center justify-center mb-4">
+                  <Mail className="w-5 h-5 text-[#9a3412]" />
                 </div>
-                <h3 className="font-bold text-lg text-[#1e2d3d] mb-1">Email Us</h3>
-                <p className="text-[#4a5568] text-sm mb-3">
+                <h3 className="font-bold text-lg text-[#2a211c] mb-1">Email Us</h3>
+                <p className="text-[#57493f] text-sm mb-3">
                   We respond to all emails within one business day.
                 </p>
                 <a
                   href="mailto:info@contractorschoiceagency.com"
-                  className="text-[#0052cc] font-semibold text-sm hover:underline break-all"
+                  className="text-[#9a3412] font-semibold text-sm hover:underline break-all"
                 >
                   info@contractorschoiceagency.com
                 </a>
@@ -185,20 +185,20 @@ export default function ContactPage() {
               {/* Hours */}
               <motion.div
                 variants={fadeUp}
-                className="bg-white rounded-2xl p-6 border border-[rgba(0,82,204,0.15)] shadow-sm"
+                className="bg-white rounded-2xl p-6 border border-[rgba(154,52,18,0.15)] shadow-sm"
               >
-                <div className="w-10 h-10 bg-[#f0f6ff] rounded-xl flex items-center justify-center mb-4">
-                  <Clock className="w-5 h-5 text-[#0052cc]" />
+                <div className="w-10 h-10 bg-[#fdf6ec] rounded-xl flex items-center justify-center mb-4">
+                  <Clock className="w-5 h-5 text-[#9a3412]" />
                 </div>
-                <h3 className="font-bold text-lg text-[#1e2d3d] mb-3">Business Hours</h3>
-                <ul className="space-y-2 text-sm text-[#4a5568]">
+                <h3 className="font-bold text-lg text-[#2a211c] mb-3">Business Hours</h3>
+                <ul className="space-y-2 text-sm text-[#57493f]">
                   {[
                     { day: "Monday – Friday", hours: "8:00 AM – 6:00 PM MT" },
                     { day: "Saturday", hours: "9:00 AM – 2:00 PM MT" },
                     { day: "Sunday", hours: "Closed" },
                   ].map(({ day, hours }) => (
                     <li key={day} className="flex justify-between">
-                      <span className="font-medium text-[#1e2d3d]">{day}</span>
+                      <span className="font-medium text-[#2a211c]">{day}</span>
                       <span>{hours}</span>
                     </li>
                   ))}
@@ -208,13 +208,13 @@ export default function ContactPage() {
               {/* Location */}
               <motion.div
                 variants={fadeUp}
-                className="bg-white rounded-2xl p-6 border border-[rgba(0,82,204,0.15)] shadow-sm"
+                className="bg-white rounded-2xl p-6 border border-[rgba(154,52,18,0.15)] shadow-sm"
               >
-                <div className="w-10 h-10 bg-[#f0f6ff] rounded-xl flex items-center justify-center mb-4">
-                  <MapPin className="w-5 h-5 text-[#0052cc]" />
+                <div className="w-10 h-10 bg-[#fdf6ec] rounded-xl flex items-center justify-center mb-4">
+                  <MapPin className="w-5 h-5 text-[#9a3412]" />
                 </div>
-                <h3 className="font-bold text-lg text-[#1e2d3d] mb-2">Licensed Nationwide</h3>
-                <p className="text-sm text-[#4a5568]">
+                <h3 className="font-bold text-lg text-[#2a211c] mb-2">Licensed Nationwide</h3>
+                <p className="text-sm text-[#57493f]">
                   Contractors Choice Agency holds active insurance licenses in all 50
                   states. Wherever your contracts take you, we can help.
                 </p>
@@ -227,19 +227,19 @@ export default function ContactPage() {
                 <motion.div
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  className="bg-[#f0f6ff] border border-[rgba(0,82,204,0.2)] rounded-2xl p-10 text-center"
+                  className="bg-[#fdf6ec] border border-[rgba(154,52,18,0.2)] rounded-2xl p-10 text-center"
                 >
-                  <div className="w-16 h-16 bg-[#0052cc] rounded-full flex items-center justify-center mx-auto mb-5">
+                  <div className="w-16 h-16 bg-[#9a3412] rounded-full flex items-center justify-center mx-auto mb-5">
                     <CheckCircle className="w-8 h-8 text-white" />
                   </div>
-                  <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-3">
+                  <h2 className="text-2xl font-extrabold text-[#2a211c] mb-3">
                     Message Received!
                   </h2>
-                  <p className="text-[#4a5568] mb-6">
+                  <p className="text-[#57493f] mb-6">
                     Thank you for contacting Contractors Choice Agency. A specialist
                     will reach out to you within one business day. For urgent needs,
                     call us directly at{" "}
-                    <a href="tel:8449675247" className="text-[#0052cc] font-bold">
+                    <a href="tel:8449675247" className="text-[#9a3412] font-bold">
                       844-967-5247
                     </a>
                     .
@@ -252,10 +252,10 @@ export default function ContactPage() {
                   variants={stagger}
                 >
                   <motion.div variants={fadeUp} className="mb-6">
-                    <h2 className="text-2xl font-extrabold text-[#1e2d3d] mb-2">
+                    <h2 className="text-2xl font-extrabold text-[#2a211c] mb-2">
                       Send Us a Message
                     </h2>
-                    <p className="text-[#4a5568] text-sm">
+                    <p className="text-[#57493f] text-sm">
                       Fill out the form below and a ghost WC specialist will contact
                       you within one business day.
                     </p>
@@ -283,7 +283,7 @@ export default function ContactPage() {
                       <div className="grid sm:grid-cols-2 gap-5">
                         <div>
                           <label htmlFor="name" className={labelClass}>
-                            Your Name <span className="text-[#0052cc]">*</span>
+                            Your Name <span className="text-[#9a3412]">*</span>
                           </label>
                           <input
                             id="name"
@@ -315,7 +315,7 @@ export default function ContactPage() {
                       <div className="grid sm:grid-cols-2 gap-5">
                         <div>
                           <label htmlFor="email" className={labelClass}>
-                            Email Address <span className="text-[#0052cc]">*</span>
+                            Email Address <span className="text-[#9a3412]">*</span>
                           </label>
                           <input
                             id="email"
@@ -346,7 +346,7 @@ export default function ContactPage() {
 
                       <div>
                         <label htmlFor="state" className={labelClass}>
-                          State <span className="text-[#0052cc]">*</span>
+                          State <span className="text-[#9a3412]">*</span>
                         </label>
                         <select
                           id="state"
@@ -367,7 +367,7 @@ export default function ContactPage() {
 
                       <div>
                         <label htmlFor="message" className={labelClass}>
-                          Message <span className="text-[#0052cc]">*</span>
+                          Message <span className="text-[#9a3412]">*</span>
                         </label>
                         <textarea
                           id="message"
@@ -391,7 +391,7 @@ export default function ContactPage() {
                       <button
                         type="submit"
                         disabled={submitting}
-                        className="w-full inline-flex items-center justify-center gap-2 bg-[#0052cc] text-white px-8 py-4 rounded-xl font-bold text-sm hover:bg-[#0047b3] active:bg-[#003d99] transition-colors shadow-lg shadow-[#0052cc]/20 disabled:opacity-60 disabled:cursor-not-allowed"
+                        className="w-full inline-flex items-center justify-center gap-2 bg-[#9a3412] text-white px-8 py-4 rounded-xl font-bold text-sm hover:bg-[#8a3410] active:bg-[#7c2d12] transition-colors shadow-lg shadow-[#9a3412]/20 disabled:opacity-60 disabled:cursor-not-allowed"
                       >
                         {submitting ? (
                           <>
@@ -409,7 +409,7 @@ export default function ContactPage() {
                         )}
                       </button>
 
-                      <p className="text-xs text-[#94a3b8] text-center">
+                      <p className="text-xs text-[#a89a8c] text-center">
                         By submitting this form you consent to be contacted by Contractors
                         Choice Agency regarding your insurance inquiry.
                       </p>

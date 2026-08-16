@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #0052cc;
-  --primary-light: #1a6bff;
-  --primary-dark: #003d99;
-  --charcoal: #1e2d3d;
-  --charcoal-light: #2d4156;
-  --slate: #64748b;
-  --slate-light: #94a3b8;
+  --primary: #9a3412;
+  --primary-light: #c2410c;
+  --primary-dark: #7c2d12;
+  --charcoal: #2a211c;
+  --charcoal-light: #3d3129;
+  --slate: #78685c;
+  --slate-light: #a89a8c;
   --bg: #ffffff;
-  --bg-subtle: #f8fafc;
-  --bg-muted: #f1f5f9;
-  --border: #e2e8f0;
-  --border-primary: rgba(0, 82, 204, 0.2);
+  --bg-subtle: #faf8f5;
+  --bg-muted: #f3efe9;
+  --border: #e8e0d6;
+  --border-primary: rgba(154,52,18, 0.2);
 }
 
 * {
@@ -50,15 +50,15 @@ body {
 .animate-pulse-glow { animation: pulse-glow 4s ease-in-out infinite; }
 
 .hero-gradient {
-  background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 50%, #dbeafe 100%);
+  background: linear-gradient(135deg, #faf8f5 0%, #fdf4e7 50%, #f7e8d4 100%);
 }
 
 .section-gradient {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #faf8f5 100%);
 }
 
 .blue-gradient-text {
-  background: linear-gradient(135deg, #0052cc 0%, #1a6bff 50%, #4d9fff 100%);
+  background: linear-gradient(135deg, #9a3412 0%, #c2410c 50%, #b45309 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -69,19 +69,19 @@ body {
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 60px rgba(0, 82, 204, 0.15);
+  box-shadow: 0 20px 60px rgba(154,52,18, 0.15);
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #0052cc 0%, #1a6bff 100%);
+  background: linear-gradient(135deg, #9a3412 0%, #c2410c 100%);
   color: white;
   font-weight: 700;
   padding: 14px 32px;
   border-radius: 10px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 82, 204, 0.3);
+  box-shadow: 0 4px 20px rgba(154,52,18, 0.3);
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 82, 204, 0.4);
+  box-shadow: 0 8px 30px rgba(154,52,18, 0.4);
 }

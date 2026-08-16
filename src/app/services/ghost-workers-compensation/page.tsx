@@ -108,26 +108,26 @@ export default function GhostWorkersCompensationPage() {
 
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 hero-gradient relative overflow-hidden">
-        <div className="absolute top-20 right-10 w-72 h-72 bg-[#0052cc]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-56 h-56 bg-blue-200/30 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute top-20 right-10 w-72 h-72 bg-[#9a3412]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-56 h-56 bg-amber-200/30 rounded-full blur-2xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" animate="visible" variants={stagger}>
               <motion.span
                 variants={fadeUp}
-                className="inline-block bg-[#0052cc]/10 text-[#0052cc] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
+                className="inline-block bg-[#9a3412]/10 text-[#9a3412] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
               >
                 Ghost Policy Insurance
               </motion.span>
               <motion.h1
                 variants={fadeUp}
-                className="text-4xl lg:text-5xl font-extrabold text-[#1e2d3d] leading-tight mb-6"
+                className="text-4xl lg:text-5xl font-extrabold text-[#2a211c] leading-tight mb-6"
               >
                 Ghost Workers{" "}
-                <span className="text-[#0052cc]">Compensation Policy</span>
+                <span className="text-[#9a3412]">Compensation Policy</span>
               </motion.h1>
-              <motion.p variants={fadeUp} className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <motion.p variants={fadeUp} className="text-lg text-stone-600 mb-8 leading-relaxed">
                 A ghost workers compensation policy provides legitimate proof of coverage for sole proprietors
                 and owner-operators with no employees. Satisfy licensing boards, general contractor COI
                 requirements, and client demands — without paying for coverage you don't need.
@@ -135,13 +135,13 @@ export default function GhostWorkersCompensationPage() {
               <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/quote"
-                  className="inline-flex items-center justify-center gap-2 bg-[#0052cc] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#0041a8] transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-[#9a3412] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#83300f] transition-colors"
                 >
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
                   href="tel:844-967-5247"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-[#0052cc] text-[#0052cc] px-7 py-4 rounded-xl font-semibold hover:bg-[#0052cc]/5 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-[#9a3412] text-[#9a3412] px-7 py-4 rounded-xl font-semibold hover:bg-[#9a3412]/5 transition-colors"
                 >
                   <Phone className="w-5 h-5" /> 844-967-5247
                 </a>
@@ -166,8 +166,8 @@ export default function GhostWorkersCompensationPage() {
                   <CheckCircle className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[#1e2d3d]">Same-Day COI</p>
-                  <p className="text-xs text-gray-500">Certificate issued at binding</p>
+                  <p className="text-sm font-bold text-[#2a211c]">Same-Day COI</p>
+                  <p className="text-xs text-stone-500">Certificate issued at binding</p>
                 </div>
               </div>
             </motion.div>
@@ -186,22 +186,22 @@ export default function GhostWorkersCompensationPage() {
             className="grid lg:grid-cols-2 gap-16 items-center"
           >
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">
                 What Is a Ghost Workers Comp Policy?
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-stone-600 leading-relaxed mb-5">
                 A <strong>ghost workers compensation policy</strong> — sometimes called a ghost employee
                 policy or owner-only policy — is a legitimate, carrier-issued workers compensation
                 insurance policy that lists the business owner as the insured but carries no employee
                 payroll. The "ghost" refers to the absence of employees, not any misrepresentation.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-stone-600 leading-relaxed mb-5">
                 These policies are designed specifically for sole proprietors, single-member LLCs, and
                 owner-operators who operate without W-2 employees but must produce a certificate of
                 insurance (COI) to satisfy clients, general contractors, licensing boards, or state
                 regulatory agencies.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-stone-600 leading-relaxed">
                 Because workers comp premiums are calculated on payroll, and ghost policies have zero
                 payroll, the carrier charges the minimum premium for the applicable class code. Premiums
                 are flat, predictable, and not subject to year-end payroll audits — a significant
@@ -216,11 +216,11 @@ export default function GhostWorkersCompensationPage() {
                 { label: "Issued in all competitive states", detail: "Available in 46 states — not available in ND, OH, WA, WY" },
                 { label: "Available for high-hazard trades", detail: "Construction, roofing, electrical, plumbing, landscaping and more" },
               ].map((item, i) => (
-                <div key={i} className="flex items-start gap-3 p-4 rounded-xl bg-[#f8fafc] border border-gray-100">
-                  <CheckCircle className="w-5 h-5 text-[#0052cc] mt-0.5 flex-shrink-0" />
+                <div key={i} className="flex items-start gap-3 p-4 rounded-xl bg-[#faf8f5] border border-stone-100">
+                  <CheckCircle className="w-5 h-5 text-[#9a3412] mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="font-semibold text-[#1e2d3d] text-sm">{item.label}</p>
-                    <p className="text-xs text-gray-500 mt-0.5">{item.detail}</p>
+                    <p className="font-semibold text-[#2a211c] text-sm">{item.label}</p>
+                    <p className="text-xs text-stone-500 mt-0.5">{item.detail}</p>
                   </div>
                 </div>
               ))}
@@ -230,7 +230,7 @@ export default function GhostWorkersCompensationPage() {
       </section>
 
       {/* ── Who Needs a Ghost Policy ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -239,10 +239,10 @@ export default function GhostWorkersCompensationPage() {
             variants={stagger}
             className="text-center mb-14"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               Who Needs a Ghost Policy?
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto text-lg">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto text-lg">
               Ghost policies serve a broad range of self-employed professionals across industries
               where proof of workers comp is a prerequisite for doing business.
             </motion.p>
@@ -258,13 +258,13 @@ export default function GhostWorkersCompensationPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                className="bg-white rounded-2xl p-6 border border-stone-100 shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="w-12 h-12 bg-[#0052cc]/10 rounded-xl flex items-center justify-center mb-4">
-                  <item.icon className="w-6 h-6 text-[#0052cc]" />
+                <div className="w-12 h-12 bg-[#9a3412]/10 rounded-xl flex items-center justify-center mb-4">
+                  <item.icon className="w-6 h-6 text-[#9a3412]" />
                 </div>
-                <h3 className="text-lg font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <h3 className="text-lg font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-stone-600 text-sm leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -281,10 +281,10 @@ export default function GhostWorkersCompensationPage() {
             variants={stagger}
             className="text-center mb-14"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               How Ghost Policies Work
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               The process is straightforward — from application to certificate issuance, ghost policies are
               designed for speed and simplicity.
             </motion.p>
@@ -300,11 +300,11 @@ export default function GhostWorkersCompensationPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="relative p-6 rounded-2xl bg-[#f8fafc] border border-gray-100"
+                className="relative p-6 rounded-2xl bg-[#faf8f5] border border-stone-100"
               >
-                <div className="text-5xl font-extrabold text-[#0052cc]/10 mb-3">{step.num}</div>
-                <h3 className="text-base font-bold text-[#1e2d3d] mb-2">{step.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{step.desc}</p>
+                <div className="text-5xl font-extrabold text-[#9a3412]/10 mb-3">{step.num}</div>
+                <h3 className="text-base font-bold text-[#2a211c] mb-2">{step.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{step.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -312,7 +312,7 @@ export default function GhostWorkersCompensationPage() {
       </section>
 
       {/* ── States & Requirements ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -322,15 +322,15 @@ export default function GhostWorkersCompensationPage() {
             className="grid lg:grid-cols-2 gap-16 items-start"
           >
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">
                 States & Availability
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="text-stone-600 leading-relaxed mb-6">
                 Ghost workers compensation policies are available in <strong>46 competitive states</strong> where
                 private insurance carriers are permitted to write workers comp coverage. Each state has its own
                 minimum premium floors, class code rules, and eligibility criteria.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <p className="text-stone-600 leading-relaxed mb-6">
                 Ghost policy pricing is driven primarily by the applicable NCCI class code (or state-bureau
                 equivalent). A roofing contractor carries a substantially higher rate than a landscaper or
                 clerical worker — the risk profile of the trade determines the minimum premium.
@@ -352,7 +352,7 @@ export default function GhostWorkersCompensationPage() {
               </div>
             </motion.div>
             <motion.div variants={fadeUp} className="space-y-4">
-              <h3 className="text-xl font-bold text-[#1e2d3d] mb-4">Cost Factors at a Glance</h3>
+              <h3 className="text-xl font-bold text-[#2a211c] mb-4">Cost Factors at a Glance</h3>
               {[
                 { factor: "State of Operation", detail: "Each state sets its own rate tables and minimum premiums." },
                 { factor: "NCCI Class Code", detail: "Your trade classification determines the base rate per $100 of payroll." },
@@ -360,15 +360,15 @@ export default function GhostWorkersCompensationPage() {
                 { factor: "Policy Limits", detail: "Standard Part A limits are statutory; Part B employer liability limits are elected." },
                 { factor: "Annual vs. Installment", detail: "Some carriers offer monthly payment options; annual pay often earns a discount." },
               ].map((item, i) => (
-                <div key={i} className="bg-white rounded-xl p-4 border border-gray-100 shadow-sm">
-                  <p className="font-semibold text-[#1e2d3d] text-sm">{item.factor}</p>
-                  <p className="text-gray-500 text-xs mt-1">{item.detail}</p>
+                <div key={i} className="bg-white rounded-xl p-4 border border-stone-100 shadow-sm">
+                  <p className="font-semibold text-[#2a211c] text-sm">{item.factor}</p>
+                  <p className="text-stone-500 text-xs mt-1">{item.detail}</p>
                 </div>
               ))}
-              <div className="bg-[#0052cc] rounded-xl p-5 text-white">
+              <div className="bg-[#9a3412] rounded-xl p-5 text-white">
                 <p className="font-bold mb-1">Typical Annual Range</p>
                 <p className="text-3xl font-extrabold mb-1">$800 – $2,500</p>
-                <p className="text-blue-200 text-sm">Flat premium — no year-end audit surprises</p>
+                <p className="text-amber-200 text-sm">Flat premium — no year-end audit surprises</p>
               </div>
             </motion.div>
           </motion.div>
@@ -385,10 +385,10 @@ export default function GhostWorkersCompensationPage() {
             variants={stagger}
             className="text-center mb-14"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">
               Why Contractors Choose CCA
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               Contractors Choice Agency is a specialty workers compensation broker focused exclusively
               on hard-to-place and niche WC risks — including ghost policies across all competitive states.
             </motion.p>
@@ -411,13 +411,13 @@ export default function GhostWorkersCompensationPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="p-6 rounded-2xl bg-[#f8fafc] border border-gray-100 hover:border-[#0052cc]/30 hover:shadow-md transition-all"
+                className="p-6 rounded-2xl bg-[#faf8f5] border border-stone-100 hover:border-[#9a3412]/30 hover:shadow-md transition-all"
               >
-                <div className="w-8 h-8 bg-[#0052cc] rounded-lg flex items-center justify-center mb-4">
+                <div className="w-8 h-8 bg-[#9a3412] rounded-lg flex items-center justify-center mb-4">
                   <CheckCircle className="w-4 h-4 text-white" />
                 </div>
-                <h3 className="font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <h3 className="font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-stone-600 text-sm leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -425,7 +425,7 @@ export default function GhostWorkersCompensationPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -434,10 +434,10 @@ export default function GhostWorkersCompensationPage() {
             variants={stagger}
             className="text-center mb-12"
           >
-            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#1e2d3d] mb-4">
+            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#2a211c] mb-4">
               Frequently Asked Questions
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600">
+            <motion.p variants={fadeUp} className="text-stone-600">
               Everything you need to know about ghost workers compensation policies.
             </motion.p>
           </motion.div>
@@ -452,20 +452,20 @@ export default function GhostWorkersCompensationPage() {
               <motion.div
                 key={i}
                 variants={fadeUp}
-                className="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm"
+                className="bg-white rounded-2xl border border-stone-100 overflow-hidden shadow-sm"
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-6 text-left"
                 >
-                  <span className="font-semibold text-[#1e2d3d] pr-4">{item.q}</span>
+                  <span className="font-semibold text-[#2a211c] pr-4">{item.q}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-[#0052cc] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`}
+                    className={`w-5 h-5 text-[#9a3412] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`}
                   />
                 </button>
                 {openFaq === i && (
                   <div className="px-6 pb-6">
-                    <p className="text-gray-600 leading-relaxed text-sm">{item.a}</p>
+                    <p className="text-stone-600 leading-relaxed text-sm">{item.a}</p>
                   </div>
                 )}
               </motion.div>
@@ -475,20 +475,20 @@ export default function GhostWorkersCompensationPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-20 bg-[#0052cc]">
+      <section className="py-20 bg-[#9a3412]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-white mb-4">
               Get Your Ghost Policy Today
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-blue-200 text-lg mb-8 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-amber-200 text-lg mb-8 max-w-2xl mx-auto">
               Don't lose another contract over missing insurance. Our specialists will bind your ghost workers
               comp policy and deliver your certificate of insurance — often the same day you apply.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/quote"
-                className="inline-flex items-center justify-center gap-2 bg-white text-[#0052cc] px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-white text-[#9a3412] px-8 py-4 rounded-xl font-bold hover:bg-amber-50 transition-colors"
               >
                 Get a Free Quote <ArrowRight className="w-5 h-5" />
               </Link>

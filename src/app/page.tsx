@@ -34,8 +34,8 @@ const services = [
       "Affordable annual premiums",
     ],
     href: "/services/ghost-workers-compensation",
-    color: "from-[#0052cc]/10 to-[#1a6bff]/10",
-    border: "border-[rgba(0,82,204,0.2)]",
+    color: "from-[#9a3412]/10 to-[#c2410c]/10",
+    border: "border-[rgba(154,52,18,0.2)]",
   },
   {
     icon: Search,
@@ -50,8 +50,8 @@ const services = [
       "Carrier dispute representation",
     ],
     href: "/services/audit-protection",
-    color: "from-[#0052cc]/10 to-[#1a6bff]/10",
-    border: "border-[rgba(0,82,204,0.2)]",
+    color: "from-[#9a3412]/10 to-[#c2410c]/10",
+    border: "border-[rgba(154,52,18,0.2)]",
   },
   {
     icon: AlertTriangle,
@@ -66,8 +66,8 @@ const services = [
       "Consequential bodily injury defense",
     ],
     href: "/services/employer-liability",
-    color: "from-[#0052cc]/10 to-[#1a6bff]/10",
-    border: "border-[rgba(0,82,204,0.2)]",
+    color: "from-[#9a3412]/10 to-[#c2410c]/10",
+    border: "border-[rgba(154,52,18,0.2)]",
   },
   {
     icon: FileText,
@@ -82,8 +82,8 @@ const services = [
       "Unreported payroll protection",
     ],
     href: "/services/payroll-fraud",
-    color: "from-[#0052cc]/10 to-[#1a6bff]/10",
-    border: "border-[rgba(0,82,204,0.2)]",
+    color: "from-[#9a3412]/10 to-[#c2410c]/10",
+    border: "border-[rgba(154,52,18,0.2)]",
   },
   {
     icon: Users,
@@ -98,8 +98,8 @@ const services = [
       "Multi-worker class action defense",
     ],
     href: "/services/independent-contractor",
-    color: "from-[#0052cc]/10 to-[#1a6bff]/10",
-    border: "border-[rgba(0,82,204,0.2)]",
+    color: "from-[#9a3412]/10 to-[#c2410c]/10",
+    border: "border-[rgba(154,52,18,0.2)]",
   },
   {
     icon: Globe,
@@ -114,8 +114,8 @@ const services = [
       "USL&H coverage available",
     ],
     href: "/services/multi-state-coverage",
-    color: "from-[#0052cc]/10 to-[#1a6bff]/10",
-    border: "border-[rgba(0,82,204,0.2)]",
+    color: "from-[#9a3412]/10 to-[#c2410c]/10",
+    border: "border-[rgba(154,52,18,0.2)]",
   },
 ];
 
@@ -185,14 +185,14 @@ export default function Home() {
           <motion.div
             animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
             transition={{ duration: 8, repeat: Infinity }}
-            className="absolute -top-32 -right-32 w-[600px] h-[600px] bg-[#1a6bff]/10 rounded-full blur-[128px]"
+            className="absolute -top-32 -right-32 w-[600px] h-[600px] bg-[#c2410c]/10 rounded-full blur-[128px]"
           />
           <motion.div
             animate={{ scale: [1, 1.3, 1], opacity: [0.2, 0.4, 0.2] }}
             transition={{ duration: 10, repeat: Infinity, delay: 2 }}
-            className="absolute -bottom-32 -left-32 w-[500px] h-[500px] bg-[#0052cc]/10 rounded-full blur-[128px]"
+            className="absolute -bottom-32 -left-32 w-[500px] h-[500px] bg-[#9a3412]/10 rounded-full blur-[128px]"
           />
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,82,204,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,82,204,0.04)_1px,transparent_1px)] bg-[size:60px_60px]" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(154,52,18,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(154,52,18,0.04)_1px,transparent_1px)] bg-[size:60px_60px]" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-16">
@@ -207,31 +207,31 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.08)] border border-[rgba(0,82,204,0.2)] mb-8"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.08)] border border-[rgba(154,52,18,0.2)] mb-8"
               >
-                <Shield className="w-4 h-4 text-[#0052cc]" />
-                <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">
+                <Shield className="w-4 h-4 text-[#9a3412]" />
+                <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">
                   Specialized Ghost Policy Workers Comp
                 </span>
               </motion.div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-[#1e2d3d] leading-[1.05] mb-6">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-[#2a211c] leading-[1.05] mb-6">
                 Ghost Workers{" "}
                 <span className="blue-gradient-text">Compensation</span>{" "}
                 Insurance
               </h1>
 
-              <p className="text-lg md:text-xl text-[#475569] leading-relaxed mb-8 max-w-xl">
+              <p className="text-lg md:text-xl text-[#54463c] leading-relaxed mb-8 max-w-xl">
                 When your employees misclassify themselves or go unreported, your business faces workers comp
                 audit exposure, employer liability risk, and retroactive premium bills.{" "}
-                <strong className="text-[#1e2d3d]">We specialize in exactly this situation.</strong>
+                <strong className="text-[#2a211c]">We specialize in exactly this situation.</strong>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-10">
                 <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
                   <Link
                     href="/quote"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#0052cc] to-[#1a6bff] text-white font-bold rounded-xl shadow-xl shadow-[rgba(0,82,204,0.35)] hover:shadow-[rgba(0,82,204,0.5)] transition-all text-lg"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#9a3412] to-[#c2410c] text-white font-bold rounded-xl shadow-xl shadow-[rgba(154,52,18,0.35)] hover:shadow-[rgba(154,52,18,0.5)] transition-all text-lg"
                   >
                     Get a Free Quote
                     <ArrowRight className="w-5 h-5" />
@@ -240,7 +240,7 @@ export default function Home() {
                 <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
                   <a
                     href="tel:+18449675247"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#0052cc] font-bold rounded-xl border-2 border-[rgba(0,82,204,0.3)] hover:border-[rgba(0,82,204,0.6)] transition-all text-lg shadow-lg"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#9a3412] font-bold rounded-xl border-2 border-[rgba(154,52,18,0.3)] hover:border-[rgba(154,52,18,0.6)] transition-all text-lg shadow-lg"
                   >
                     <Phone className="w-5 h-5" />
                     844-967-5247
@@ -254,10 +254,10 @@ export default function Home() {
                   (badge) => (
                     <div
                       key={badge}
-                      className="flex items-center gap-2 px-3 py-1.5 bg-white rounded-lg shadow-sm border border-[rgba(0,82,204,0.1)]"
+                      className="flex items-center gap-2 px-3 py-1.5 bg-white rounded-lg shadow-sm border border-[rgba(154,52,18,0.1)]"
                     >
-                      <CheckCircle className="w-3.5 h-3.5 text-[#0052cc]" />
-                      <span className="text-xs font-semibold text-[#1e2d3d]">{badge}</span>
+                      <CheckCircle className="w-3.5 h-3.5 text-[#9a3412]" />
+                      <span className="text-xs font-semibold text-[#2a211c]">{badge}</span>
                     </div>
                   )
                 )}
@@ -276,15 +276,15 @@ export default function Home() {
                 <motion.div
                   animate={{ y: [0, -12, 0] }}
                   transition={{ duration: 5, repeat: Infinity }}
-                  className="absolute top-0 left-10 right-0 bg-white rounded-3xl shadow-2xl shadow-[rgba(0,82,204,0.15)] border border-[rgba(0,82,204,0.12)] p-8 z-20"
+                  className="absolute top-0 left-10 right-0 bg-white rounded-3xl shadow-2xl shadow-[rgba(154,52,18,0.15)] border border-[rgba(154,52,18,0.12)] p-8 z-20"
                 >
                   <div className="flex items-center gap-3 mb-5">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#0052cc] to-[#1a6bff] rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#9a3412] to-[#c2410c] rounded-xl flex items-center justify-center">
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <p className="font-black text-[#1e2d3d] text-base">Ghost Policy Active</p>
-                      <p className="text-xs text-[#64748b]">Effective immediately</p>
+                      <p className="font-black text-[#2a211c] text-base">Ghost Policy Active</p>
+                      <p className="text-xs text-[#78685c]">Effective immediately</p>
                     </div>
                   </div>
                   <div className="space-y-3">
@@ -294,14 +294,14 @@ export default function Home() {
                       { label: "Employer Liability", value: "Part A & B" },
                       { label: "States Covered", value: "All 50" },
                     ].map((row) => (
-                      <div key={row.label} className="flex justify-between items-center py-2 border-b border-[rgba(0,82,204,0.07)]">
-                        <span className="text-xs text-[#64748b] font-medium">{row.label}</span>
-                        <span className="text-sm font-bold text-[#1e2d3d]">{row.value}</span>
+                      <div key={row.label} className="flex justify-between items-center py-2 border-b border-[rgba(154,52,18,0.07)]">
+                        <span className="text-xs text-[#78685c] font-medium">{row.label}</span>
+                        <span className="text-sm font-bold text-[#2a211c]">{row.value}</span>
                       </div>
                     ))}
                   </div>
-                  <div className="mt-5 p-3 bg-[rgba(0,82,204,0.06)] rounded-xl">
-                    <p className="text-xs text-center font-bold text-[#0052cc]">Certificate of Insurance Available</p>
+                  <div className="mt-5 p-3 bg-[rgba(154,52,18,0.06)] rounded-xl">
+                    <p className="text-xs text-center font-bold text-[#9a3412]">Certificate of Insurance Available</p>
                   </div>
                 </motion.div>
 
@@ -309,15 +309,15 @@ export default function Home() {
                 <motion.div
                   animate={{ y: [0, 10, 0] }}
                   transition={{ duration: 6, repeat: Infinity, delay: 1 }}
-                  className="absolute bottom-0 left-0 w-72 bg-white rounded-2xl shadow-xl shadow-[rgba(0,82,204,0.1)] border border-[rgba(0,82,204,0.1)] p-5 z-10"
+                  className="absolute bottom-0 left-0 w-72 bg-white rounded-2xl shadow-xl shadow-[rgba(154,52,18,0.1)] border border-[rgba(154,52,18,0.1)] p-5 z-10"
                 >
                   <div className="flex items-start gap-3">
                     <div className="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center shrink-0">
                       <AlertTriangle className="w-4 h-4 text-amber-600" />
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-[#1e2d3d] mb-1">Audit Notice Received?</p>
-                      <p className="text-xs text-[#64748b]">
+                      <p className="text-sm font-bold text-[#2a211c] mb-1">Audit Notice Received?</p>
+                      <p className="text-xs text-[#78685c]">
                         We help employers respond to workers comp audit inquiries and minimize retroactive premiums.
                       </p>
                     </div>
@@ -330,7 +330,7 @@ export default function Home() {
       </section>
 
       {/* ── TRUST BAR ── */}
-      <section className="bg-[#1e2d3d] py-10">
+      <section className="bg-[#2a211c] py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat) => {
@@ -343,9 +343,9 @@ export default function Home() {
                   viewport={{ once: true }}
                   className="text-center"
                 >
-                  <Icon className="w-6 h-6 text-[#1a6bff] mx-auto mb-2" />
+                  <Icon className="w-6 h-6 text-[#c2410c] mx-auto mb-2" />
                   <p className="text-3xl font-black text-white mb-1">{stat.value}</p>
-                  <p className="text-sm text-slate-400">{stat.label}</p>
+                  <p className="text-sm text-stone-400">{stat.label}</p>
                 </motion.div>
               );
             })}
@@ -363,20 +363,20 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.06)] border border-[rgba(0,82,204,0.15)] mb-6">
-                <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">Understanding Ghost Policies</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
+                <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">Understanding Ghost Policies</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1e2d3d] mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-black text-[#2a211c] mb-6 leading-tight">
                 What Is a{" "}
                 <span className="blue-gradient-text">Ghost Workers Comp</span>{" "}
                 Policy?
               </h2>
-              <p className="text-lg text-[#475569] mb-5 leading-relaxed">
+              <p className="text-lg text-[#54463c] mb-5 leading-relaxed">
                 A ghost workers compensation policy—sometimes called a ghost WC policy or shell policy—is a
                 legitimate, carrier-issued workers compensation insurance policy where the employer is listed but
                 no employees are covered at issuance.
               </p>
-              <p className="text-base text-[#475569] mb-5 leading-relaxed">
+              <p className="text-base text-[#54463c] mb-5 leading-relaxed">
                 The term &ldquo;ghost&rdquo; refers to the absence of covered employees, NOT to any fraudulent practice.
                 Ghost policies are commonly used by sole proprietors, LLC owners, and small employers who must
                 show proof of WC insurance to satisfy contract requirements or state licensing rules.
@@ -389,14 +389,14 @@ export default function Home() {
                   "Audit exposure must still be managed—ghost policies don't eliminate it",
                 ].map((point) => (
                   <div key={point} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-[#0052cc] shrink-0 mt-0.5" />
-                    <p className="text-sm text-[#475569]">{point}</p>
+                    <CheckCircle className="w-5 h-5 text-[#9a3412] shrink-0 mt-0.5" />
+                    <p className="text-sm text-[#54463c]">{point}</p>
                   </div>
                 ))}
               </div>
               <Link
                 href="/services/ghost-workers-compensation"
-                className="inline-flex items-center gap-2 text-[#0052cc] font-bold hover:gap-3 transition-all"
+                className="inline-flex items-center gap-2 text-[#9a3412] font-bold hover:gap-3 transition-all"
               >
                 Learn more about ghost policies
                 <ArrowRight className="w-4 h-4" />
@@ -418,18 +418,18 @@ export default function Home() {
                   height={480}
                   className="w-full h-[420px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#1e2d3d]/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#2a211c]/50 to-transparent" />
               </div>
 
               {/* Floating badge */}
               <motion.div
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
-                className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl shadow-[rgba(0,82,204,0.15)] p-5 border border-[rgba(0,82,204,0.1)]"
+                className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl shadow-[rgba(154,52,18,0.15)] p-5 border border-[rgba(154,52,18,0.1)]"
               >
-                <p className="text-xs font-bold text-[#64748b] uppercase tracking-wide mb-1">Audit Risk</p>
-                <p className="text-2xl font-black text-[#0052cc]">$40K+</p>
-                <p className="text-xs text-[#64748b]">Avg. retroactive premium bill</p>
+                <p className="text-xs font-bold text-[#78685c] uppercase tracking-wide mb-1">Audit Risk</p>
+                <p className="text-2xl font-black text-[#9a3412]">$40K+</p>
+                <p className="text-xs text-[#78685c]">Avg. retroactive premium bill</p>
               </motion.div>
             </motion.div>
           </div>
@@ -437,7 +437,7 @@ export default function Home() {
       </section>
 
       {/* ── SERVICES GRID ── */}
-      <section className="py-24 bg-[#f8fafc]">
+      <section className="py-24 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
@@ -446,14 +446,14 @@ export default function Home() {
             variants={stagger}
             className="text-center mb-16"
           >
-            <motion.div variants={fadeUp} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.06)] border border-[rgba(0,82,204,0.15)] mb-6">
-              <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">Coverage Options</span>
+            <motion.div variants={fadeUp} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
+              <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">Coverage Options</span>
             </motion.div>
-            <motion.h2 variants={fadeUp} className="text-4xl md:text-5xl font-black text-[#1e2d3d] mb-5">
+            <motion.h2 variants={fadeUp} className="text-4xl md:text-5xl font-black text-[#2a211c] mb-5">
               Ghost Workers Comp{" "}
               <span className="blue-gradient-text">Coverage Types</span>
             </motion.h2>
-            <motion.p variants={fadeUp} className="text-lg text-[#475569] max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-lg text-[#54463c] max-w-2xl mx-auto">
               Every ghost employee situation is different. We offer specialized coverage for the full spectrum of
               employer liability and audit protection needs.
             </motion.p>
@@ -473,23 +473,23 @@ export default function Home() {
                 >
                   <Link
                     href={svc.href}
-                    className={`block h-full bg-white rounded-3xl border ${svc.border} p-8 shadow-sm hover:border-[rgba(0,82,204,0.4)] transition-all`}
+                    className={`block h-full bg-white rounded-3xl border ${svc.border} p-8 shadow-sm hover:border-[rgba(154,52,18,0.4)] transition-all`}
                   >
                     <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${svc.color} border ${svc.border} flex items-center justify-center mb-5`}>
-                      <Icon className="w-7 h-7 text-[#0052cc]" />
+                      <Icon className="w-7 h-7 text-[#9a3412]" />
                     </div>
-                    <h3 className="text-xl font-black text-[#1e2d3d] mb-2">{svc.title}</h3>
-                    <p className="text-sm font-semibold text-[#0052cc] mb-4">{svc.short}</p>
-                    <p className="text-sm text-[#475569] leading-relaxed mb-5">{svc.description}</p>
+                    <h3 className="text-xl font-black text-[#2a211c] mb-2">{svc.title}</h3>
+                    <p className="text-sm font-semibold text-[#9a3412] mb-4">{svc.short}</p>
+                    <p className="text-sm text-[#54463c] leading-relaxed mb-5">{svc.description}</p>
                     <ul className="space-y-2 mb-6">
                       {svc.features.map((f) => (
-                        <li key={f} className="flex items-center gap-2 text-xs text-[#475569]">
-                          <CheckCircle className="w-3.5 h-3.5 text-[#0052cc] shrink-0" />
+                        <li key={f} className="flex items-center gap-2 text-xs text-[#54463c]">
+                          <CheckCircle className="w-3.5 h-3.5 text-[#9a3412] shrink-0" />
                           {f}
                         </li>
                       ))}
                     </ul>
-                    <span className="inline-flex items-center gap-1 text-sm font-bold text-[#0052cc]">
+                    <span className="inline-flex items-center gap-1 text-sm font-bold text-[#9a3412]">
                       Learn more <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -515,20 +515,20 @@ export default function Home() {
                 alt="Contractors Choice Agency team of insurance specialists"
                 width={640}
                 height={500}
-                className="w-full h-[440px] object-cover rounded-3xl shadow-2xl shadow-[rgba(0,82,204,0.1)]"
+                className="w-full h-[440px] object-cover rounded-3xl shadow-2xl shadow-[rgba(154,52,18,0.1)]"
               />
               <motion.div
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 5, repeat: Infinity }}
-                className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-2xl p-5 border border-[rgba(0,82,204,0.12)]"
+                className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-2xl p-5 border border-[rgba(154,52,18,0.12)]"
               >
                 <div className="flex items-center gap-2 mb-1">
                   {[1, 2, 3, 4, 5].map((s) => (
                     <Star key={s} className="w-4 h-4 text-amber-400 fill-amber-400" />
                   ))}
                 </div>
-                <p className="text-sm font-black text-[#1e2d3d]">5.0 Average Rating</p>
-                <p className="text-xs text-[#64748b]">From 400+ employer clients</p>
+                <p className="text-sm font-black text-[#2a211c]">5.0 Average Rating</p>
+                <p className="text-xs text-[#78685c]">From 400+ employer clients</p>
               </motion.div>
             </motion.div>
 
@@ -537,14 +537,14 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.06)] border border-[rgba(0,82,204,0.15)] mb-6">
-                <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">Why Contractors Choice Agency</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
+                <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">Why Contractors Choice Agency</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1e2d3d] mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-black text-[#2a211c] mb-6 leading-tight">
                 Former Contractors Who{" "}
                 <span className="blue-gradient-text">Know the Risks</span>
               </h2>
-              <p className="text-lg text-[#475569] mb-6 leading-relaxed">
+              <p className="text-lg text-[#54463c] mb-6 leading-relaxed">
                 Contractors Choice Agency was founded by former contractors and construction business owners who
                 experienced workers comp audits, ghost employee situations, and employer liability claims firsthand.
               </p>
@@ -574,12 +574,12 @@ export default function Home() {
                   const Icon = item.icon;
                   return (
                     <div key={item.title} className="flex gap-4">
-                      <div className="w-10 h-10 rounded-xl bg-[rgba(0,82,204,0.08)] flex items-center justify-center shrink-0">
-                        <Icon className="w-5 h-5 text-[#0052cc]" />
+                      <div className="w-10 h-10 rounded-xl bg-[rgba(154,52,18,0.08)] flex items-center justify-center shrink-0">
+                        <Icon className="w-5 h-5 text-[#9a3412]" />
                       </div>
                       <div>
-                        <p className="font-bold text-[#1e2d3d] mb-1">{item.title}</p>
-                        <p className="text-sm text-[#475569]">{item.desc}</p>
+                        <p className="font-bold text-[#2a211c] mb-1">{item.title}</p>
+                        <p className="text-sm text-[#54463c]">{item.desc}</p>
                       </div>
                     </div>
                   );
@@ -587,7 +587,7 @@ export default function Home() {
               </div>
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#0052cc] to-[#1a6bff] text-white font-bold rounded-xl shadow-lg shadow-[rgba(0,82,204,0.3)] hover:shadow-[rgba(0,82,204,0.5)] transition-all"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#9a3412] to-[#c2410c] text-white font-bold rounded-xl shadow-lg shadow-[rgba(154,52,18,0.3)] hover:shadow-[rgba(154,52,18,0.5)] transition-all"
               >
                 About Contractors Choice Agency
                 <ArrowRight className="w-4 h-4" />
@@ -598,17 +598,17 @@ export default function Home() {
       </section>
 
       {/* ── HOW IT WORKS ── */}
-      <section className="py-24 bg-[#f8fafc]">
+      <section className="py-24 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.06)] border border-[rgba(0,82,204,0.15)] mb-6">
-              <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">The Process</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
+              <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">The Process</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-[#1e2d3d] mb-5">
+            <h2 className="text-4xl md:text-5xl font-black text-[#2a211c] mb-5">
               How to Get Your{" "}
               <span className="blue-gradient-text">Ghost WC Policy</span>
             </h2>
-            <p className="text-lg text-[#475569] max-w-xl mx-auto">
+            <p className="text-lg text-[#54463c] max-w-xl mx-auto">
               From initial contact to certificate of insurance—typically within 24 hours.
             </p>
           </div>
@@ -626,16 +626,16 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="bg-white rounded-3xl p-8 border border-[rgba(0,82,204,0.1)] shadow-sm relative"
+                className="bg-white rounded-3xl p-8 border border-[rgba(154,52,18,0.1)] shadow-sm relative"
               >
-                <div className="text-5xl font-black text-[rgba(0,82,204,0.08)] absolute top-4 right-5 leading-none">
+                <div className="text-5xl font-black text-[rgba(154,52,18,0.08)] absolute top-4 right-5 leading-none">
                   {step.step}
                 </div>
-                <div className="w-12 h-12 bg-gradient-to-br from-[#0052cc] to-[#1a6bff] rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-[rgba(0,82,204,0.3)]">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#9a3412] to-[#c2410c] rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-[rgba(154,52,18,0.3)]">
                   <span className="text-white text-sm font-black">{step.step}</span>
                 </div>
-                <h3 className="text-lg font-black text-[#1e2d3d] mb-3">{step.title}</h3>
-                <p className="text-sm text-[#475569] leading-relaxed">{step.desc}</p>
+                <h3 className="text-lg font-black text-[#2a211c] mb-3">{step.title}</h3>
+                <p className="text-sm text-[#54463c] leading-relaxed">{step.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -646,10 +646,10 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.06)] border border-[rgba(0,82,204,0.15)] mb-6">
-              <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">Client Results</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
+              <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">Client Results</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-[#1e2d3d]">
+            <h2 className="text-4xl md:text-5xl font-black text-[#2a211c]">
               Employers We&apos;ve{" "}
               <span className="blue-gradient-text">Protected</span>
             </h2>
@@ -663,17 +663,17 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.15 }}
-                className="card-hover bg-white rounded-3xl p-8 border border-[rgba(0,82,204,0.12)] shadow-md"
+                className="card-hover bg-white rounded-3xl p-8 border border-[rgba(154,52,18,0.12)] shadow-md"
               >
                 <div className="flex gap-1 mb-4">
                   {[1, 2, 3, 4, 5].map((s) => (
                     <Star key={s} className="w-4 h-4 text-amber-400 fill-amber-400" />
                   ))}
                 </div>
-                <p className="text-[#475569] text-sm leading-relaxed mb-6 italic">&ldquo;{t.text}&rdquo;</p>
+                <p className="text-[#54463c] text-sm leading-relaxed mb-6 italic">&ldquo;{t.text}&rdquo;</p>
                 <div>
-                  <p className="font-black text-[#1e2d3d] text-sm">{t.name}</p>
-                  <p className="text-xs text-[#64748b]">{t.role}</p>
+                  <p className="font-black text-[#2a211c] text-sm">{t.name}</p>
+                  <p className="text-xs text-[#78685c]">{t.role}</p>
                 </div>
               </motion.div>
             ))}
@@ -682,13 +682,13 @@ export default function Home() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-24 bg-[#f8fafc]">
+      <section className="py-24 bg-[#faf8f5]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(0,82,204,0.06)] border border-[rgba(0,82,204,0.15)] mb-6">
-              <span className="text-xs font-bold text-[#0052cc] uppercase tracking-wider">Common Questions</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
+              <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">Common Questions</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-[#1e2d3d]">
+            <h2 className="text-4xl md:text-5xl font-black text-[#2a211c]">
               Ghost WC Insurance{" "}
               <span className="blue-gradient-text">FAQs</span>
             </h2>
@@ -702,15 +702,15 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05 }}
-                className="bg-white rounded-2xl border border-[rgba(0,82,204,0.1)] overflow-hidden shadow-sm"
+                className="bg-white rounded-2xl border border-[rgba(154,52,18,0.1)] overflow-hidden shadow-sm"
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between gap-4 p-6 text-left hover:bg-[rgba(0,82,204,0.03)] transition-colors"
+                  className="w-full flex items-center justify-between gap-4 p-6 text-left hover:bg-[rgba(154,52,18,0.03)] transition-colors"
                 >
-                  <p className="font-bold text-[#1e2d3d] text-base">{faq.q}</p>
+                  <p className="font-bold text-[#2a211c] text-base">{faq.q}</p>
                   <ChevronDown
-                    className={`w-5 h-5 text-[#0052cc] shrink-0 transition-transform ${
+                    className={`w-5 h-5 text-[#9a3412] shrink-0 transition-transform ${
                       openFaq === i ? "rotate-180" : ""
                     }`}
                   />
@@ -721,7 +721,7 @@ export default function Home() {
                     animate={{ height: "auto" }}
                     className="px-6 pb-6"
                   >
-                    <p className="text-sm text-[#475569] leading-relaxed">{faq.a}</p>
+                    <p className="text-sm text-[#54463c] leading-relaxed">{faq.a}</p>
                   </motion.div>
                 )}
               </motion.div>
@@ -731,7 +731,7 @@ export default function Home() {
       </section>
 
       {/* ── FINAL CTA ── */}
-      <section className="py-24 bg-gradient-to-br from-[#0052cc] via-[#1a6bff] to-[#0052cc] relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-br from-[#9a3412] via-[#c2410c] to-[#9a3412] relative overflow-hidden">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <motion.div
             animate={{ scale: [1, 1.2, 1], opacity: [0.2, 0.4, 0.2] }}
@@ -752,7 +752,7 @@ export default function Home() {
             <br />
             Get Protected Today.
           </motion.h2>
-          <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
+          <p className="text-xl text-amber-100 mb-10 max-w-2xl mx-auto">
             Whether you need a ghost policy, audit protection, or employer liability coverage—our specialists
             will find the right solution for your specific situation.
           </p>
@@ -760,7 +760,7 @@ export default function Home() {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 href="/quote"
-                className="flex items-center justify-center gap-2 px-10 py-4 bg-white text-[#0052cc] font-black rounded-xl text-lg shadow-2xl hover:-translate-y-1 transition-all"
+                className="flex items-center justify-center gap-2 px-10 py-4 bg-white text-[#9a3412] font-black rounded-xl text-lg shadow-2xl hover:-translate-y-1 transition-all"
               >
                 Get My Free Quote
                 <ArrowRight className="w-5 h-5" />
@@ -776,7 +776,7 @@ export default function Home() {
               </a>
             </motion.div>
           </div>
-          <p className="text-blue-200 text-sm mt-8">
+          <p className="text-amber-200 text-sm mt-8">
             Mon–Fri 8am–5pm MST · Licensed in all 50 states · No obligation quote
           </p>
         </div>

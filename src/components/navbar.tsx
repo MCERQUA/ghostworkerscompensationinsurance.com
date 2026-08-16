@@ -32,7 +32,7 @@ export function Navbar() {
       transition={{ duration: 0.6 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-lg shadow-[rgba(0,82,204,0.08)]"
+          ? "bg-white/95 backdrop-blur-md shadow-lg shadow-[rgba(154,52,18,0.08)]"
           : "bg-white/80 backdrop-blur-sm"
       }`}
     >
@@ -40,12 +40,12 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0052cc] to-[#1a6bff] flex items-center justify-center shadow-lg shadow-[rgba(0,82,204,0.3)] group-hover:shadow-[rgba(0,82,204,0.5)] transition-all">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#9a3412] to-[#c2410c] flex items-center justify-center shadow-lg shadow-[rgba(154,52,18,0.3)] group-hover:shadow-[rgba(154,52,18,0.5)] transition-all">
               <Shield className="w-6 h-6 text-white" />
             </div>
             <div>
-              <div className="text-sm font-black text-[#0052cc] leading-tight">GHOST WC</div>
-              <div className="text-xs text-[#64748b] font-medium leading-tight">INSURANCE</div>
+              <div className="text-sm font-black text-[#9a3412] leading-tight">GHOST WC</div>
+              <div className="text-xs text-[#78685c] font-medium leading-tight">INSURANCE</div>
             </div>
           </Link>
 
@@ -56,7 +56,7 @@ export function Navbar() {
               onMouseEnter={() => setServicesOpen(true)}
               onMouseLeave={() => setServicesOpen(false)}
             >
-              <button className="flex items-center gap-1 text-[#1e2d3d] font-semibold text-sm hover:text-[#0052cc] transition-colors py-2">
+              <button className="flex items-center gap-1 text-[#2a211c] font-semibold text-sm hover:text-[#9a3412] transition-colors py-2">
                 Coverage
                 <ChevronDown className={`w-4 h-4 transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
               </button>
@@ -67,13 +67,13 @@ export function Navbar() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
                     transition={{ duration: 0.2 }}
-                    className="absolute top-full left-1/2 -translate-x-1/2 w-64 bg-white rounded-2xl shadow-2xl shadow-[rgba(0,82,204,0.15)] border border-[rgba(0,82,204,0.1)] py-2 mt-1"
+                    className="absolute top-full left-1/2 -translate-x-1/2 w-64 bg-white rounded-2xl shadow-2xl shadow-[rgba(154,52,18,0.15)] border border-[rgba(154,52,18,0.1)] py-2 mt-1"
                   >
                     {services.map((s) => (
                       <Link
                         key={s.href}
                         href={s.href}
-                        className="block px-5 py-3 text-sm text-[#1e2d3d] hover:text-[#0052cc] hover:bg-[rgba(0,82,204,0.05)] transition-colors font-medium"
+                        className="block px-5 py-3 text-sm text-[#2a211c] hover:text-[#9a3412] hover:bg-[rgba(154,52,18,0.05)] transition-colors font-medium"
                       >
                         {s.label}
                       </Link>
@@ -83,19 +83,19 @@ export function Navbar() {
               </AnimatePresence>
             </div>
 
-            <Link href="/about" className="text-[#1e2d3d] font-semibold text-sm hover:text-[#0052cc] transition-colors">
+            <Link href="/about" className="text-[#2a211c] font-semibold text-sm hover:text-[#9a3412] transition-colors">
               About
             </Link>
-            <Link href="/blog" className="text-[#1e2d3d] font-semibold text-sm hover:text-[#0052cc] transition-colors">
+            <Link href="/blog" className="text-[#2a211c] font-semibold text-sm hover:text-[#9a3412] transition-colors">
               Blog
             </Link>
-            <Link href="/contact" className="text-[#1e2d3d] font-semibold text-sm hover:text-[#0052cc] transition-colors">
+            <Link href="/contact" className="text-[#2a211c] font-semibold text-sm hover:text-[#9a3412] transition-colors">
               Contact
             </Link>
 
             <a
               href="tel:+18449675247"
-              className="flex items-center gap-2 text-sm font-bold text-[#0052cc] hover:text-[#003d99] transition-colors"
+              className="flex items-center gap-2 text-sm font-bold text-[#9a3412] hover:text-[#7c2d12] transition-colors"
             >
               <Phone className="w-4 h-4" />
               844-967-5247
@@ -103,7 +103,7 @@ export function Navbar() {
 
             <Link
               href="/quote"
-              className="px-5 py-2.5 bg-gradient-to-r from-[#0052cc] to-[#1a6bff] text-white text-sm font-bold rounded-xl shadow-lg shadow-[rgba(0,82,204,0.3)] hover:shadow-[rgba(0,82,204,0.5)] hover:-translate-y-0.5 transition-all"
+              className="px-5 py-2.5 bg-gradient-to-r from-[#9a3412] to-[#c2410c] text-white text-sm font-bold rounded-xl shadow-lg shadow-[rgba(154,52,18,0.3)] hover:shadow-[rgba(154,52,18,0.5)] hover:-translate-y-0.5 transition-all"
             >
               Get a Quote
             </Link>
@@ -112,7 +112,7 @@ export function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 text-[#1e2d3d] hover:text-[#0052cc] transition-colors"
+            className="lg:hidden p-2 text-[#2a211c] hover:text-[#9a3412] transition-colors"
           >
             {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -126,21 +126,21 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-white border-t border-[rgba(0,82,204,0.1)] overflow-hidden"
+            className="lg:hidden bg-white border-t border-[rgba(154,52,18,0.1)] overflow-hidden"
           >
             <div className="max-w-7xl mx-auto px-4 py-4 space-y-1">
-              <p className="text-xs font-bold text-[#64748b] uppercase tracking-wider px-4 pt-2 pb-1">Coverage</p>
+              <p className="text-xs font-bold text-[#78685c] uppercase tracking-wider px-4 pt-2 pb-1">Coverage</p>
               {services.map((s) => (
                 <Link
                   key={s.href}
                   href={s.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block px-4 py-2.5 text-sm font-semibold text-[#1e2d3d] hover:text-[#0052cc] hover:bg-[rgba(0,82,204,0.05)] rounded-xl transition-colors"
+                  className="block px-4 py-2.5 text-sm font-semibold text-[#2a211c] hover:text-[#9a3412] hover:bg-[rgba(154,52,18,0.05)] rounded-xl transition-colors"
                 >
                   {s.label}
                 </Link>
               ))}
-              <div className="border-t border-[rgba(0,82,204,0.1)] pt-2 mt-2">
+              <div className="border-t border-[rgba(154,52,18,0.1)] pt-2 mt-2">
                 {[
                   { href: "/about", label: "About" },
                   { href: "/blog", label: "Blog" },
@@ -150,7 +150,7 @@ export function Navbar() {
                     key={link.href}
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block px-4 py-2.5 text-sm font-semibold text-[#1e2d3d] hover:text-[#0052cc] hover:bg-[rgba(0,82,204,0.05)] rounded-xl transition-colors"
+                    className="block px-4 py-2.5 text-sm font-semibold text-[#2a211c] hover:text-[#9a3412] hover:bg-[rgba(154,52,18,0.05)] rounded-xl transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -159,7 +159,7 @@ export function Navbar() {
               <div className="pt-2 space-y-2">
                 <a
                   href="tel:+18449675247"
-                  className="flex items-center gap-2 px-4 py-3 text-sm font-bold text-[#0052cc] bg-[rgba(0,82,204,0.06)] rounded-xl"
+                  className="flex items-center gap-2 px-4 py-3 text-sm font-bold text-[#9a3412] bg-[rgba(154,52,18,0.06)] rounded-xl"
                 >
                   <Phone className="w-4 h-4" />
                   844-967-5247
@@ -167,7 +167,7 @@ export function Navbar() {
                 <Link
                   href="/quote"
                   onClick={() => setMobileOpen(false)}
-                  className="block text-center px-4 py-3 bg-gradient-to-r from-[#0052cc] to-[#1a6bff] text-white text-sm font-bold rounded-xl"
+                  className="block text-center px-4 py-3 bg-gradient-to-r from-[#9a3412] to-[#c2410c] text-white text-sm font-bold rounded-xl"
                 >
                   Get a Free Quote
                 </Link>

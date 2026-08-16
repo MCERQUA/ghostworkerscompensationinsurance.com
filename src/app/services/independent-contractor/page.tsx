@@ -30,8 +30,8 @@ const classificationTests = [
       { label: "Type of Relationship", detail: "Are there written contracts, employee-type benefits, indefinite duration, and work that is a key business activity?" },
     ],
     note: "All factors are weighed; no single factor is determinative.",
-    color: "border-blue-200 bg-blue-50",
-    titleColor: "text-blue-800",
+    color: "border-amber-200 bg-amber-50",
+    titleColor: "text-amber-800",
   },
   {
     title: "DOL Economic Reality Test",
@@ -54,8 +54,8 @@ const classificationTests = [
       { label: "C — Independent Trade", detail: "The worker is customarily engaged in an independently established trade, occupation, or business of the same nature." },
     ],
     note: "Failing any single prong means employee status — California AB5 uses this strict standard.",
-    color: "border-purple-200 bg-purple-50",
-    titleColor: "text-purple-800",
+    color: "border-orange-200 bg-orange-50",
+    titleColor: "text-orange-800",
   },
 ];
 
@@ -106,26 +106,26 @@ export default function IndependentContractorPage() {
 
       {/* ── Hero ── */}
       <section className="pt-32 pb-20 hero-gradient relative overflow-hidden">
-        <div className="absolute top-20 right-10 w-72 h-72 bg-[#0052cc]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-56 h-56 bg-blue-200/30 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute top-20 right-10 w-72 h-72 bg-[#9a3412]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-56 h-56 bg-amber-200/30 rounded-full blur-2xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" animate="visible" variants={stagger}>
               <motion.span
                 variants={fadeUp}
-                className="inline-block bg-[#0052cc]/10 text-[#0052cc] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
+                className="inline-block bg-[#9a3412]/10 text-[#9a3412] text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
               >
                 1099 Worker Protection
               </motion.span>
               <motion.h1
                 variants={fadeUp}
-                className="text-4xl lg:text-5xl font-extrabold text-[#1e2d3d] leading-tight mb-6"
+                className="text-4xl lg:text-5xl font-extrabold text-[#2a211c] leading-tight mb-6"
               >
                 Independent Contractor{" "}
-                <span className="text-[#0052cc]">Misclassification Insurance</span>
+                <span className="text-[#9a3412]">Misclassification Insurance</span>
               </motion.h1>
-              <motion.p variants={fadeUp} className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <motion.p variants={fadeUp} className="text-lg text-stone-600 mb-8 leading-relaxed">
                 Millions of businesses rely on 1099 contractors — but the IRS, DOL, and state agencies are
                 aggressively reclassifying workers as employees, creating massive retroactive WC premium,
                 tax, and wage liabilities. Misclassification coverage protects your business before a
@@ -134,13 +134,13 @@ export default function IndependentContractorPage() {
               <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/quote"
-                  className="inline-flex items-center justify-center gap-2 bg-[#0052cc] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#0041a8] transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-[#9a3412] text-white px-7 py-4 rounded-xl font-semibold hover:bg-[#83300f] transition-colors"
                 >
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
                   href="tel:844-967-5247"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-[#0052cc] text-[#0052cc] px-7 py-4 rounded-xl font-semibold hover:bg-[#0052cc]/5 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-[#9a3412] text-[#9a3412] px-7 py-4 rounded-xl font-semibold hover:bg-[#9a3412]/5 transition-colors"
                 >
                   <Phone className="w-5 h-5" /> 844-967-5247
                 </a>
@@ -161,12 +161,12 @@ export default function IndependentContractorPage() {
                 className="rounded-3xl shadow-2xl w-full object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
-                <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-                  <UserCheck className="w-5 h-5 text-purple-600" />
+                <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                  <UserCheck className="w-5 h-5 text-orange-700" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[#1e2d3d]">Reclassification Defense</p>
-                  <p className="text-xs text-gray-500">IRS, DOL, and state audit protection</p>
+                  <p className="text-sm font-bold text-[#2a211c]">Reclassification Defense</p>
+                  <p className="text-xs text-stone-500">IRS, DOL, and state audit protection</p>
                 </div>
               </div>
             </motion.div>
@@ -179,21 +179,21 @@ export default function IndependentContractorPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">The Classification Problem</h2>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">The Classification Problem</h2>
+              <p className="text-stone-600 leading-relaxed mb-5">
                 An estimated 10–30% of U.S. workers may be misclassified as independent contractors when they
                 legally qualify as employees under federal or state law. Businesses rely on 1099 arrangements
                 to reduce payroll taxes, avoid workers comp premiums, and sidestep employment regulations —
                 but federal and state agencies are aggressively pushing back.
               </p>
-              <p className="text-gray-600 leading-relaxed mb-5">
+              <p className="text-stone-600 leading-relaxed mb-5">
                 The IRS, Department of Labor, NLRB, and nearly every state labor agency have active
                 misclassification enforcement programs. When a reclassification determination is made,
                 the employer faces retroactive liability for <strong>all periods of misclassification</strong> —
                 not just going forward. For a business that has used 1099 workers for years, this exposure
                 can be catastrophic.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-stone-600 leading-relaxed">
                 Workers comp is often the largest component of retroactive liability. Carriers retroactively
                 add reclassified workers' payroll to prior policy audits, triggering additional premium demands
                 — plus interest and penalties — going back as far as the statute of limitations allows.
@@ -206,11 +206,11 @@ export default function IndependentContractorPage() {
                 { label: "Key Federal Laws", value: "IRS + DOL + NLRA", note: "Multiple federal agencies each apply different classification tests" },
                 { label: "States with ABC Test", value: "20+", note: "Over 20 states use strict ABC test presuming employee status" },
               ].map((item, i) => (
-                <div key={i} className="flex items-center gap-4 p-4 bg-[#f8fafc] rounded-xl border border-gray-100">
-                  <div className="text-2xl font-extrabold text-[#0052cc] min-w-[90px]">{item.value}</div>
+                <div key={i} className="flex items-center gap-4 p-4 bg-[#faf8f5] rounded-xl border border-stone-100">
+                  <div className="text-2xl font-extrabold text-[#9a3412] min-w-[90px]">{item.value}</div>
                   <div>
-                    <p className="font-semibold text-[#1e2d3d] text-sm">{item.label}</p>
-                    <p className="text-gray-500 text-xs">{item.note}</p>
+                    <p className="font-semibold text-[#2a211c] text-sm">{item.label}</p>
+                    <p className="text-stone-500 text-xs">{item.note}</p>
                   </div>
                 </div>
               ))}
@@ -220,11 +220,11 @@ export default function IndependentContractorPage() {
       </section>
 
       {/* ── Classification Tests ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-14">
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">IRS, DOL &amp; State Classification Tests</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">IRS, DOL &amp; State Classification Tests</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               Three distinct legal frameworks govern worker classification — and satisfying one does not guarantee compliance with the others.
             </motion.p>
           </motion.div>
@@ -232,17 +232,17 @@ export default function IndependentContractorPage() {
             {classificationTests.map((test, i) => (
               <motion.div key={i} variants={fadeUp} className={`rounded-2xl p-6 border-2 ${test.color}`}>
                 <div className={`text-xs font-bold uppercase tracking-wide mb-1 ${test.titleColor}`}>{test.agency}</div>
-                <h3 className="text-lg font-extrabold text-[#1e2d3d] mb-5">{test.title}</h3>
+                <h3 className="text-lg font-extrabold text-[#2a211c] mb-5">{test.title}</h3>
                 <div className="space-y-4 mb-5">
                   {test.factors.map((factor, j) => (
                     <div key={j}>
-                      <p className="font-semibold text-[#1e2d3d] text-sm mb-1">{factor.label}</p>
-                      <p className="text-gray-600 text-xs leading-relaxed">{factor.detail}</p>
+                      <p className="font-semibold text-[#2a211c] text-sm mb-1">{factor.label}</p>
+                      <p className="text-stone-600 text-xs leading-relaxed">{factor.detail}</p>
                     </div>
                   ))}
                 </div>
                 <div className="bg-white/60 rounded-xl p-3">
-                  <p className="text-xs text-gray-700 italic">{test.note}</p>
+                  <p className="text-xs text-stone-700 italic">{test.note}</p>
                 </div>
               </motion.div>
             ))}
@@ -254,17 +254,17 @@ export default function IndependentContractorPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-14">
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">Risks of Misclassification</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">Retroactive reclassification triggers liability across multiple agencies and legal theories simultaneously.</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">Risks of Misclassification</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">Retroactive reclassification triggers liability across multiple agencies and legal theories simultaneously.</motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {misclassificationRisks.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="bg-[#f8fafc] rounded-2xl p-6 border border-gray-100 hover:shadow-md transition-shadow">
-                <div className="w-12 h-12 bg-[#0052cc]/10 rounded-xl flex items-center justify-center mb-4">
-                  <item.icon className="w-6 h-6 text-[#0052cc]" />
+              <motion.div key={i} variants={fadeUp} className="bg-[#faf8f5] rounded-2xl p-6 border border-stone-100 hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-[#9a3412]/10 rounded-xl flex items-center justify-center mb-4">
+                  <item.icon className="w-6 h-6 text-[#9a3412]" />
                 </div>
-                <h3 className="font-bold text-[#1e2d3d] mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                <h3 className="font-bold text-[#2a211c] mb-2">{item.title}</h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -272,11 +272,11 @@ export default function IndependentContractorPage() {
       </section>
 
       {/* ── State Enforcement Hotspots ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-12">
-            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-4">State Enforcement Hotspots</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600 max-w-2xl mx-auto">
+            <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-4">State Enforcement Hotspots</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600 max-w-2xl mx-auto">
               These states have the most aggressive misclassification enforcement programs — with penalties and retroactive liability that can threaten business solvency.
             </motion.p>
           </motion.div>
@@ -309,10 +309,10 @@ export default function IndependentContractorPage() {
             className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto"
           >
             {hotspots.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
-                <h3 className="font-extrabold text-[#1e2d3d] mb-1">{item.state}</h3>
-                <div className="text-xs text-[#0052cc] font-semibold mb-3">{item.law}</div>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.detail}</p>
+              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm">
+                <h3 className="font-extrabold text-[#2a211c] mb-1">{item.state}</h3>
+                <div className="text-xs text-[#9a3412] font-semibold mb-3">{item.law}</div>
+                <p className="text-sm text-stone-600 leading-relaxed">{item.detail}</p>
               </motion.div>
             ))}
           </motion.div>
@@ -324,13 +324,13 @@ export default function IndependentContractorPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div variants={fadeUp}>
-              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#1e2d3d] mb-6">What Coverage Addresses Your Exposure</h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
+              <h2 className="text-3xl lg:text-4xl font-extrabold text-[#2a211c] mb-6">What Coverage Addresses Your Exposure</h2>
+              <p className="text-stone-600 leading-relaxed mb-6">
                 Misclassification coverage combined with audit protection provides a comprehensive financial
                 backstop against the retroactive costs of reclassification — whether triggered by a carrier
                 audit, state agency investigation, or injured worker's claim.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-stone-600 leading-relaxed">
                 CCA's specialists structure coverage programs that address the full spectrum of 1099 worker
                 exposure — from the first audit notice through final resolution, including legal defense,
                 retroactive premium, and penalty mitigation.
@@ -344,11 +344,11 @@ export default function IndependentContractorPage() {
                 { title: "Employer Liability Part B Defense", detail: "Covers civil lawsuits filed by reclassified workers who suffered injuries during the misclassification period" },
                 { title: "Multi-Agency Coordination", detail: "CCA specialists coordinate defense across IRS, DOL, and state labor agency investigations simultaneously" },
               ].map((item, i) => (
-                <div key={i} className="flex items-start gap-3 p-4 bg-[#f8fafc] rounded-xl border border-gray-100">
-                  <CheckCircle className="w-5 h-5 text-[#0052cc] flex-shrink-0 mt-0.5" />
+                <div key={i} className="flex items-start gap-3 p-4 bg-[#faf8f5] rounded-xl border border-stone-100">
+                  <CheckCircle className="w-5 h-5 text-[#9a3412] flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="font-semibold text-[#1e2d3d] text-sm">{item.title}</p>
-                    <p className="text-gray-500 text-xs mt-0.5">{item.detail}</p>
+                    <p className="font-semibold text-[#2a211c] text-sm">{item.title}</p>
+                    <p className="text-stone-500 text-xs mt-0.5">{item.detail}</p>
                   </div>
                 </div>
               ))}
@@ -358,22 +358,22 @@ export default function IndependentContractorPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-20 bg-[#f8fafc]">
+      <section className="py-20 bg-[#faf8f5]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="text-center mb-12">
-            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#1e2d3d] mb-4">Frequently Asked Questions</motion.h2>
-            <motion.p variants={fadeUp} className="text-gray-600">Common questions about independent contractor classification and misclassification insurance.</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl font-extrabold text-[#2a211c] mb-4">Frequently Asked Questions</motion.h2>
+            <motion.p variants={fadeUp} className="text-stone-600">Common questions about independent contractor classification and misclassification insurance.</motion.p>
           </motion.div>
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger} className="space-y-3">
             {faqItems.map((item, i) => (
-              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+              <motion.div key={i} variants={fadeUp} className="bg-white rounded-2xl border border-stone-100 overflow-hidden shadow-sm">
                 <button onClick={() => setOpenFaq(openFaq === i ? null : i)} className="w-full flex items-center justify-between p-6 text-left">
-                  <span className="font-semibold text-[#1e2d3d] pr-4">{item.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-[#0052cc] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`} />
+                  <span className="font-semibold text-[#2a211c] pr-4">{item.q}</span>
+                  <ChevronDown className={`w-5 h-5 text-[#9a3412] flex-shrink-0 transition-transform duration-200 ${openFaq === i ? "rotate-180" : ""}`} />
                 </button>
                 {openFaq === i && (
                   <div className="px-6 pb-6">
-                    <p className="text-gray-600 leading-relaxed text-sm">{item.a}</p>
+                    <p className="text-stone-600 leading-relaxed text-sm">{item.a}</p>
                   </div>
                 )}
               </motion.div>
@@ -383,16 +383,16 @@ export default function IndependentContractorPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="py-20 bg-[#0052cc]">
+      <section className="py-20 bg-[#9a3412]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
             <motion.h2 variants={fadeUp} className="text-3xl lg:text-4xl font-extrabold text-white mb-4">Protect Your 1099 Workforce Strategy</motion.h2>
-            <motion.p variants={fadeUp} className="text-blue-200 text-lg mb-8 max-w-2xl mx-auto">
+            <motion.p variants={fadeUp} className="text-amber-200 text-lg mb-8 max-w-2xl mx-auto">
               Don't let a reclassification audit unravel years of contractor arrangements. CCA structures misclassification
               coverage and audit protection programs that address the full spectrum of 1099 worker exposure.
             </motion.p>
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#0052cc] px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors">
+              <Link href="/quote" className="inline-flex items-center justify-center gap-2 bg-white text-[#9a3412] px-8 py-4 rounded-xl font-bold hover:bg-amber-50 transition-colors">
                 Get a Free Quote <ArrowRight className="w-5 h-5" />
               </Link>
               <a href="tel:844-967-5247" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-colors">
