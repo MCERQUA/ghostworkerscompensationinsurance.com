@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     "ghost employee insurance",
     "payroll fraud workers compensation",
   ],
+  metadataBase: new URL("https://ghostworkerscompensationinsurance.com"),
   openGraph: {
     title: "Ghost Workers Compensation Insurance | Audit Protection",
     description:

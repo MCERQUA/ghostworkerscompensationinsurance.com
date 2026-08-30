@@ -60,10 +60,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       "@type": "Organization",
       name: "Contractors Choice Agency",
       url: "https://ghostworkerscompensationinsurance.com",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://ghostworkerscompensationinsurance.com/images/logo.png",
-      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
