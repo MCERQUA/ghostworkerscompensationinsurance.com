@@ -642,45 +642,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ── */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(154,52,18,0.06)] border border-[rgba(154,52,18,0.15)] mb-6">
-              <span className="text-xs font-bold text-[#9a3412] uppercase tracking-wider">Client Results</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-black text-[#2a211c]">
-              Employers We&apos;ve{" "}
-              <span className="blue-gradient-text">Protected</span>
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {testimonials.map((t, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.15 }}
-                className="card-hover bg-white rounded-3xl p-8 border border-[rgba(154,52,18,0.12)] shadow-md"
-              >
-                <div className="flex gap-1 mb-4">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 text-amber-400 fill-amber-400" />
-                  ))}
-                </div>
-                <p className="text-[#54463c] text-sm leading-relaxed mb-6 italic">&ldquo;{t.text}&rdquo;</p>
-                <div>
-                  <p className="font-black text-[#2a211c] text-sm">{t.name}</p>
-                  <p className="text-xs text-[#78685c]">{t.role}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── FAQ ── */}
       <section className="py-24 bg-[#faf8f5]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
