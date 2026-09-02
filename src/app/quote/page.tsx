@@ -449,6 +449,127 @@ export default function QuotePage() {
                         </div>
                       )}
 
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Business details</h3>
+                          <p className="text-xs opacity-70 mt-0.5">What the business does and how long it has been running.</p>
+                        </div>
+                        <div><label className={labelClass}>Year business started</label><input type="text" name="yearBusinessStarted" placeholder="2015" className={inputClass} /></div>
+                        <div><label className={labelClass}>Description of the business</label><textarea name="businessDescription" rows={3} placeholder="What the business does, day to day" className={inputClass} /></div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Annual gross sales</label><input type="text" name="annualGrossSales" placeholder="$1,200,000" className={inputClass} /></div>
+                          <div><label className={labelClass}>Residential vs commercial split</label><input type="text" name="residentialVsCommercial" placeholder="70% residential / 30% commercial" className={inputClass} /></div>
+                        </div>
+                        <div><label className={labelClass}>New vs existing construction</label><input type="text" name="newVsExistingConstruction" placeholder="Mostly existing structures" className={inputClass} /></div>
+                        <div><label className={labelClass}>Largest projects</label><textarea name="largestProjects" rows={3} placeholder="Three largest jobs in the last year — value and scope" className={inputClass} /></div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Business address</h3>
+                          <p className="text-xs opacity-70 mt-0.5">Where your operation is based.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Street address</label><input type="text" name="streetAddress" placeholder="123 Main St, Suite 200" className={inputClass} /></div>
+                          <div><label className={labelClass}>City</label><input type="text" name="city" placeholder="Phoenix" className={inputClass} /></div>
+                        </div>
+                        <div><label className={labelClass}>ZIP code</label><input type="text" name="zip" placeholder="85001" className={inputClass} /></div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Payroll and class codes</h3>
+                          <p className="text-xs opacity-70 mt-0.5">Employees, payroll and how the work is classified.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Class code 1</label><input type="text" name="classCode1" placeholder="5403" className={inputClass} /></div>
+                          <div><label className={labelClass}>Class code 2</label><input type="text" name="classCode2" placeholder="5645" className={inputClass} /></div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Class code 3</label><input type="text" name="classCode3" className={inputClass} /></div>
+                          <div><label className={labelClass}>Class code 4</label><input type="text" name="classCode4" className={inputClass} /></div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Class code 5</label><input type="text" name="classCode5" className={inputClass} /></div>
+                          <div><label className={labelClass}>Office vs field split</label><input type="text" name="officeVsFieldSplit" placeholder="2 office / 6 field" className={inputClass} /></div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Any clerical staff?</label><select name="hasClericalStaff" className={inputClass}><option value="">Select…</option><option value="Yes">Yes</option><option value="No">No</option></select></div>
+                          <div><label className={labelClass}>Clerical staff — count and payroll</label><input type="text" name="clericalStaffCount" placeholder="2 clerical, $90,000 payroll" className={inputClass} /></div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Any outside sales staff?</label><select name="hasSalesStaff" className={inputClass}><option value="">Select…</option><option value="Yes">Yes</option><option value="No">No</option></select></div>
+                          <div><label className={labelClass}>Sales staff — count and payroll</label><input type="text" name="salesStaffCount" placeholder="1 outside sales, $60,000 payroll" className={inputClass} /></div>
+                        </div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Prior year</h3>
+                          <p className="text-xs opacity-70 mt-0.5">Your last completed 12 months. Best estimates are fine.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Prior year gross sales</label><input type="text" name="priorYearGrossSales" placeholder="$1,200,000" className={inputClass} /></div>
+                          <div><label className={labelClass}>Prior year subcontractor expenses</label><input type="text" name="priorYearSubcontractorExpenses" placeholder="$250,000" className={inputClass} /></div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Prior year employee count</label><input type="text" name="priorYearEmployeeCount" placeholder="8" className={inputClass} /></div>
+                          <div><label className={labelClass}>Prior year employee payroll</label><input type="text" name="priorYearEmployeePayroll" placeholder="$400,000" className={inputClass} /></div>
+                        </div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Next twelve months — estimates</h3>
+                          <p className="text-xs opacity-70 mt-0.5">Projected figures for the coming policy period.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Estimated gross sales</label><input type="text" name="estimatedGrossSales" placeholder="$1,400,000" className={inputClass} /></div>
+                          <div><label className={labelClass}>Estimated subcontractor expenses</label><input type="text" name="estimatedSubcontractorExpenses" placeholder="$300,000" className={inputClass} /></div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Estimated employee count</label><input type="text" name="estimatedEmployeeCount" placeholder="10" className={inputClass} /></div>
+                          <div><label className={labelClass}>Estimated employee payroll</label><input type="text" name="estimatedEmployeePayroll" placeholder="$500,000" className={inputClass} /></div>
+                        </div>
+                        <div><label className={labelClass}>Estimated material costs</label><input type="text" name="estimatedMaterialCosts" placeholder="$180,000" className={inputClass} /></div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Subcontractor insurance</h3>
+                          <p className="text-xs opacity-70 mt-0.5">How subcontracted work is covered.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Do your subcontractors carry their own insurance?</label><select name="subcontractorsHaveInsurance" className={inputClass}><option value="">Select…</option><option value="Yes">Yes</option><option value="No">No</option></select></div>
+                          <div><label className={labelClass}>Percentage of subcontractors insured</label><input type="text" name="percentSubcontractorsInsured" placeholder="100" className={inputClass} /></div>
+                        </div>
+                        <div><label className={labelClass}>Do you need coverage for uninsured subcontractors?</label><select name="coverageForUninsuredSubcontractors" className={inputClass}><option value="">Select…</option><option value="Yes">Yes</option><option value="No">No</option></select></div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Current or prior coverage</h3>
+                          <p className="text-xs opacity-70 mt-0.5">Who covers you today, if anyone.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Current or prior carrier</label><input type="text" name="priorCarrierName" placeholder="Carrier name" className={inputClass} /></div>
+                          <div><label className={labelClass}>Policy number</label><input type="text" name="priorPolicyNumber" placeholder="Policy number" className={inputClass} /></div>
+                        </div>
+                        <div><label className={labelClass}>Policy expiration date</label><input type="date" name="priorPolicyExpiration" className={inputClass} /></div>
+                      </div>
+
+                      <div className="space-y-4 pt-5 border-t border-adobe">
+                        <div>
+                          <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Owners and officers</h3>
+                          <p className="text-xs opacity-70 mt-0.5">Each owner or officer to be included or excluded.</p>
+                        </div>
+                        <div><label className={labelClass}>Owners and officers</label><textarea name="ownerNames" rows={3} placeholder="One owner or officer per line, with role" className={inputClass} /></div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                          <div><label className={labelClass}>Owner date of birth</label><input type="date" name="ownerDateOfBirth" className={inputClass} /></div>
+                          <div><label className={labelClass}>Ownership percentage</label><input type="text" name="ownerOwnershipPct" placeholder="100" className={inputClass} /></div>
+                        </div>
+                      </div>
+
                       <button
                         type="submit"
                         disabled={submitting}
