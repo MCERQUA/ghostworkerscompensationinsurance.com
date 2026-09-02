@@ -570,6 +570,11 @@ export default function QuotePage() {
                         </div>
                       </div>
 
+                      <p className="text-xs text-[#a89a8c] text-center">
+                        By submitting this form you consent to be contacted by
+                        Contractors Choice Agency regarding your insurance inquiry.
+                        We never sell your information to third parties.
+                      </p>
                       <button
                         type="submit"
                         disabled={submitting}
@@ -591,11 +596,6 @@ export default function QuotePage() {
                         )}
                       </button>
 
-                      <p className="text-xs text-[#a89a8c] text-center">
-                        By submitting this form you consent to be contacted by
-                        Contractors Choice Agency regarding your insurance inquiry.
-                        We never sell your information to third parties.
-                      </p>
                     </form>
                   </motion.div>
                 </motion.div>
