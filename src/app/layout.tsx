@@ -56,9 +56,6 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  alternates: {
-    canonical: "https://ghostworkerscompensationinsurance.com",
-  },
 };
 
 export default function RootLayout({
