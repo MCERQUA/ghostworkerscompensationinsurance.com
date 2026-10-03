@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { OwnersFieldset } from "@/components/forms/OwnersFieldset";
 import { motion } from "framer-motion";
 import {
   Shield,
@@ -116,6 +117,7 @@ const trustItems = [
 ];
 
 export default function QuotePage() {
+  const [ownerFields, setOwnerFields] = useState<Record<string, string>>({});
   const [formData, setFormData] = useState<FormData>({
     "bot-field": "",
     name: "",
@@ -153,7 +155,7 @@ export default function QuotePage() {
           body: JSON.stringify({
             form_name: "quote",
             source: "ghostworkerscompensationinsurance.com",
-            ...formData,
+            ...formData, ...ownerFields,
           }),
         }
       );
@@ -563,11 +565,15 @@ export default function QuotePage() {
                           <h3 className="font-heading font-bold text-sm uppercase tracking-wider">Owners and officers</h3>
                           <p className="text-xs opacity-70 mt-0.5">Each owner or officer to be included or excluded.</p>
                         </div>
-                        <div><label className={labelClass}>Owners and officers</label><textarea name="ownerNames" rows={3} placeholder="One owner or officer per line, with role" className={inputClass} /></div>
-                        <div className="grid sm:grid-cols-2 gap-4">
-                          <div><label className={labelClass}>Owner date of birth</label><input type="date" name="ownerDateOfBirth" className={inputClass} /></div>
-                          <div><label className={labelClass}>Ownership percentage</label><input type="text" name="ownerOwnershipPct" placeholder="100" className={inputClass} /></div>
-                        </div>
+                        <OwnersFieldset
+                          inputClass={inputClass}
+                          labelClass={labelClass}
+                          buttonClass="inline-flex min-h-[44px] items-center gap-2 rounded-xl border-2 border-[#9a3412] px-5 py-2 text-sm font-semibold text-[#9a3412] hover:bg-[#9a3412]/5"
+                          accentTextClass="text-[#9a3412]"
+                          mutedTextClass="text-[#6b5e52]"
+                          borderClass="border-[rgba(154,52,18,0.2)]"
+                          onFieldsChange={setOwnerFields}
+                        />
                       </div>
 
                       <p className="text-xs text-[#a89a8c] text-center">
