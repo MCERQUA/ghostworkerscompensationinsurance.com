@@ -1,5 +1,6 @@
 "use client";
 
+import { submitLead } from "@/lib/submit-lead";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -76,19 +77,9 @@ export default function ContactPage() {
     setSubmitting(true);
     setError("");
     try {
-      await fetch(
-        "https://josh.jam-bot.com/social-api/api/leads/webhook/netlify?tenant=josh&site=ghostworkerscompensationinsurance.com",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            form_name: "contact",
-            source: "ghostworkerscompensationinsurance.com",
-            ...formData,
-          }),
-        }
-      );
-      setSubmitted(true);
+      const ok = await submitLead("contact", { ...formData });
+      if (ok) setSubmitted(true);
+      else setError("Something went wrong. Please call us at 844-967-5247.");
     } catch {
       setError("Something went wrong. Please call us at 844-967-5247.");
     } finally {
