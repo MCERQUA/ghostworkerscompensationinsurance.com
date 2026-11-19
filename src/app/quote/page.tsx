@@ -610,7 +610,6 @@ export default function QuotePage() {
                         </div>
                         <div className="grid sm:grid-cols-2 gap-4">
                           <div><label className={labelClass}>Current or prior carrier</label><input type="text" name="priorCarrierName" placeholder="Carrier name" className={inputClass} /></div>
-                          <div><label className={labelClass}>Policy number</label><input type="text" name="priorPolicyNumber" placeholder="Policy number" className={inputClass} /></div>
                         </div>
                         <div><label className={labelClass}>Policy expiration date</label><input type="date" name="priorPolicyExpiration" className={inputClass} /></div>
                       </div>
