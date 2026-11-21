@@ -80,7 +80,7 @@ interface FormData extends Record<string, string> {
 }
 
 type AcordKind = "text" | "number" | "date" | "textarea" | "select" | "radio" | "fein" | "zip";
-type AcordField = { name: string; label: string; kind: AcordKind; options?: string[][]; placeholder?: string };
+type AcordField = { name: string; label: string; kind: AcordKind; options?: string[][]; placeholder?: string; showIf?: [string, string] };
 // All ACORD intake fields below are OPTIONAL and must stay registered in public/__forms.html.
 const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
   { title: "Business entity", desc: "Entity details for the application.", fields: [
@@ -89,7 +89,7 @@ const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
     { name: "dba", label: "DBA / trade name", kind: "text" },
     { name: "entityType", label: "Business entity type", kind: "select", options: [["Individual / Sole Proprietor", "Individual / Sole Proprietor"], ["Partnership", "Partnership"], ["Corporation", "Corporation"], ["S Corporation", "S Corporation"], ["LLC", "LLC"], ["Joint Venture", "Joint Venture"], ["Not For Profit", "Not For Profit"], ["Trust", "Trust"], ["Other", "Other"]] },
     { name: "entityTypeOther", label: "If other, describe", kind: "text" },
-    { name: "fein", label: "FEIN (Federal Tax ID)", kind: "fein" },
+    { name: "fein", label: "Business FEIN (Federal Employer ID, 9 digits - never a Social Security number)", kind: "fein" },
     { name: "experienceMod", label: "Experience modification factor (if known)", kind: "text", placeholder: "e.g. 0.92 or 1.00" }
   ] },
   { title: "Mailing and physical location", desc: "Optional. Tell us if your mailing address differs from the business address above.", fields: [
@@ -122,7 +122,9 @@ const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
     { name: "desiredEffectiveDate", label: "Desired policy effective date", kind: "date" },
     { name: "currentlyInsured", label: "Do you currently have workers' compensation coverage?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
     { name: "coverageTerminated", label: "Has any carrier cancelled or declined your workers' compensation in the past 3 years?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "coverageTerminatedExplanation", label: "Please explain: which carrier, when, and why", kind: "textarea", showIf: ["coverageTerminated", "Yes"] },
     { name: "carrierNonRenewing", label: "Is your current carrier non-renewing?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "carrierNonRenewingExplanation", label: "Please explain: what reason did the carrier give?", kind: "textarea", showIf: ["carrierNonRenewing", "Yes"] },
     { name: "lossesLast3Years", label: "Any workers' compensation claims or losses in the last 3 years?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
     { name: "lossCount", label: "Number of losses", kind: "number" },
     { name: "lossDate", label: "Date of most recent loss", kind: "date" },
@@ -132,6 +134,76 @@ const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
     { name: "lossAmountReserved", label: "Amount reserved ($)", kind: "number", placeholder: "0 if none" },
     { name: "lossHistoryStatus", label: "Is that claim open or closed?", kind: "radio", options: [["Open", "Open"], ["Closed", "Closed"]] },
     { name: "lossAdditional", label: "Any other losses (date, type, amount, status)", kind: "textarea" }
+  ] },
+  { title: "Contacts and identifiers", desc: "Optional. Helps the carrier reach the right person. Do not enter Social Security numbers anywhere on this form.", fields: [
+    { name: "businessWebsite", label: "Business website", kind: "text", placeholder: "https://" },
+    { name: "secondaryPhone", label: "Secondary phone", kind: "text" },
+    { name: "sicCode", label: "SIC code (if known)", kind: "text" },
+    { name: "naicsCode", label: "NAICS code (if known)", kind: "text" },
+    { name: "ncciRiskId", label: "NCCI risk ID or state rating bureau number (if you have one)", kind: "text" },
+    { name: "inspectionContactName", label: "Contact for premises inspection", kind: "text" },
+    { name: "inspectionContactPhone", label: "Inspection contact phone", kind: "text" },
+    { name: "accountingContactName", label: "Billing / audit contact", kind: "text" },
+    { name: "accountingContactPhone", label: "Billing / audit contact phone", kind: "text" },
+    { name: "claimContactName", label: "Claims contact", kind: "text" },
+    { name: "claimContactPhone", label: "Claims contact phone", kind: "text" }
+  ] },
+  { title: "Coverage limits and prior premium", desc: "Optional.", fields: [
+    { name: "employersLiabilityLimit", label: "Employers liability limits requested (each accident / disease policy / disease each employee)", kind: "select", options: [["100/500/100", "$100,000 / $500,000 / $100,000"], ["500/500/500", "$500,000 / $500,000 / $500,000"], ["1000/1000/1000", "$1,000,000 / $1,000,000 / $1,000,000"], ["Other", "Other / not sure"]] },
+    { name: "priorPremium", label: "Annual premium on your current or most recent policy ($)", kind: "number" }
+  ] },
+  { title: "Workers' compensation questions", desc: "Optional. Answer Yes or No; add a short explanation for any Yes.", fields: [
+    { name: "yn_foreignCoverage", label: "Do you need Foreign coverage?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "yn_voluntaryComp", label: "Do you want Voluntary Compensation coverage?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "yn_uslh", label: "Do you need U.S. Longshore and Harbor Workers (USL&H) coverage?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "yn_aircraftWatercraft", label: "Do you own, operate or lease aircraft or watercraft?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_aircraftWatercraft", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_aircraftWatercraft", "Yes"] },
+    { name: "yn_hazardousMaterial", label: "Do past, present or discontinued operations involve storing, treating, discharging, applying, disposing of or transporting hazardous material?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_hazardousMaterial", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_hazardousMaterial", "Yes"] },
+    { name: "yn_undergroundOrHeights", label: "Is any work performed underground or above 15 feet?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_undergroundOrHeights", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_undergroundOrHeights", "Yes"] },
+    { name: "yn_overWaterWork", label: "Is any work performed on barges, vessels, docks or bridges over water?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_overWaterWork", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_overWaterWork", "Yes"] },
+    { name: "yn_otherBusiness", label: "Are you engaged in any other type of business?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_otherBusiness", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_otherBusiness", "Yes"] },
+    { name: "yn_subletWithoutCOI", label: "Is any work sublet without certificates of insurance?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_subletWithoutCOI", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_subletWithoutCOI", "Yes"] },
+    { name: "yn_safetyProgram", label: "Is a written safety program in operation?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_safetyProgram", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_safetyProgram", "Yes"] },
+    { name: "yn_groupTransportation", label: "Is any group transportation provided?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_groupTransportation", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_groupTransportation", "Yes"] },
+    { name: "yn_minorsOrSeniors", label: "Any employees under 16 or over 60 years of age?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_minorsOrSeniors", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_minorsOrSeniors", "Yes"] },
+    { name: "yn_seasonalEmployees", label: "Any seasonal employees?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_seasonalEmployees", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_seasonalEmployees", "Yes"] },
+    { name: "yn_volunteerLabor", label: "Is there any volunteer or donated labor?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_volunteerLabor", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_volunteerLabor", "Yes"] },
+    { name: "yn_physicalHandicaps", label: "Any employees with physical handicaps?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_physicalHandicaps", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_physicalHandicaps", "Yes"] },
+    { name: "yn_outOfStateTravel", label: "Do employees travel out of state?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_outOfStateTravel", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_outOfStateTravel", "Yes"] },
+    { name: "yn_athleticTeams", label: "Are athletic teams sponsored?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_athleticTeams", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_athleticTeams", "Yes"] },
+    { name: "yn_physicalsRequired", label: "Are physicals required after offers of employment are made?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_physicalsRequired", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_physicalsRequired", "Yes"] },
+    { name: "yn_otherInsuranceWithCarrier", label: "Any other insurance with this company?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_otherInsuranceWithCarrier", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_otherInsuranceWithCarrier", "Yes"] },
+    { name: "yn_employeeHealthPlan", label: "Is an employee health plan provided?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_employeeHealthPlan", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_employeeHealthPlan", "Yes"] },
+    { name: "yn_employeesOtherBusinesses", label: "Do any employees perform work for other businesses or subsidiaries?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_employeesOtherBusinesses", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_employeesOtherBusinesses", "Yes"] },
+    { name: "yn_leasedEmployees", label: "Do you lease employees to or from other employers?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_leasedEmployees", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_leasedEmployees", "Yes"] },
+    { name: "yn_workFromHome", label: "Do employees predominantly work from home?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_workFromHome", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_workFromHome", "Yes"] },
+    { name: "yn_taxLiensBankruptcy", label: "Any tax liens or bankruptcy within the past 5 years?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_taxLiensBankruptcy", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_taxLiensBankruptcy", "Yes"] },
+    { name: "yn_unpaidWCPremium", label: "Any undisputed and unpaid workers compensation premium due from you or any commonly owned or managed business?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
+    { name: "ynExplain_unpaidWCPremium", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_unpaidWCPremium", "Yes"] }
+  ] },
+  { title: "Signature", desc: "Optional. Type your full legal name as your electronic signature and enter today's date.", fields: [
+    { name: "applicantSignature", label: "Applicant signature (type your full legal name)", kind: "text" },
+    { name: "signatureDate", label: "Signature date (today)", kind: "date" }
   ] },
 ];
 const ACORD_INITIAL: Record<string, string> = Object.fromEntries(ACORD_GROUPS.flatMap((g) => g.fields.map((f) => [f.name, ""])));
@@ -621,7 +693,7 @@ export default function QuotePage() {
                             <p className="text-xs opacity-70 mt-0.5">{g.desc}</p>
                           </div>
                           <div className="grid sm:grid-cols-2 gap-4">
-                            {g.fields.map((f) => (
+                            {g.fields.filter((f) => !f.showIf || formData[f.showIf[0]] === f.showIf[1]).map((f) => (
                               <div key={f.name} className={f.kind === "textarea" ? "sm:col-span-2" : ""}>
                                 {f.kind === "radio" ? (
                                   <fieldset>
