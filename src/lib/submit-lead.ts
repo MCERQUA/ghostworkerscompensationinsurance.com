@@ -20,7 +20,11 @@ export async function submitLead(
         ...fields,
       }),
     });
-    if (res.ok) return true;
+    // The webhook answers 200 with stored:false when it did not store the lead.
+    if (res.ok) {
+      const j = await res.json().catch(() => null);
+      if (!j || j.stored !== false) return true;
+    }
   } catch {
     // fall through to Netlify Forms
   }

@@ -232,11 +232,6 @@ const ACORD_GROUPS: { title: string; desc: string; collapsible?: boolean; fields
     { name: "yn_unpaidWCPremium", label: "Any undisputed and unpaid workers compensation premium due from you or any commonly owned or managed business?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
     { name: "ynExplain_unpaidWCPremium", label: "Please explain (brief)", kind: "textarea", showIf: ["yn_unpaidWCPremium", "Yes"] }
   ] },
-  { title: "Signature", desc: "Optional. Type your full legal name as your electronic signature and enter today's date.", fields: [
-    { name: "applicantSignature", label: "Applicant signature (type your full legal name)", kind: "text" },
-    { name: "applicantInitials", label: "Applicant initials", kind: "text", maxLength: 4 },
-    { name: "signatureDate", label: "Signature date (today)", kind: "date" }
-  ] },
 ];
 const ACORD_INITIAL: Record<string, string> = Object.fromEntries(ACORD_GROUPS.flatMap((g) => g.fields.map((f) => [f.name, ""])));
 
