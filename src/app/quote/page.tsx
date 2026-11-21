@@ -80,7 +80,7 @@ interface FormData extends Record<string, string> {
 }
 
 type AcordKind = "text" | "number" | "date" | "textarea" | "select" | "radio" | "fein" | "zip";
-type AcordField = { name: string; label: string; kind: AcordKind; options?: string[][]; placeholder?: string; showIf?: [string, string]; maxLength?: number };
+type AcordField = { name: string; label: string; kind: AcordKind; options?: string[][]; placeholder?: string; showIf?: [string, string]; maxLength?: number; numeric?: boolean };
 // All ACORD intake fields below are OPTIONAL and must stay registered in public/__forms.html.
 const ACORD_GROUPS: { title: string; desc: string; collapsible?: boolean; fields: AcordField[] }[] = [
   { title: "Business entity", desc: "Entity details for the application.", fields: [
@@ -151,7 +151,8 @@ const ACORD_GROUPS: { title: string; desc: string; collapsible?: boolean; fields
   { title: "Coverage limits and prior premium", desc: "Optional.", fields: [
     { name: "employersLiabilityLimit", label: "Employers liability limits requested (each accident / disease policy / disease each employee)", kind: "select", options: [["100/500/100", "$100,000 / $500,000 / $100,000"], ["500/500/500", "$500,000 / $500,000 / $500,000"], ["1000/1000/1000", "$1,000,000 / $1,000,000 / $1,000,000"], ["Other", "Other / not sure"]] },
     { name: "priorPremium", label: "Annual premium on your current or most recent policy ($)", kind: "number" },
-    { name: "priorExperienceMod", label: "Experience modification factor on your current or most recent policy", kind: "text", placeholder: "e.g. 0.85" }
+    { name: "priorExperienceMod", label: "Experience modification factor on your current or most recent policy", kind: "text", placeholder: "e.g. 0.85" },
+    { name: "priorYear1Year", label: "Year 1: policy year (current or most recent)", kind: "text", placeholder: "e.g. 2025", maxLength: 4, numeric: true }
   ] },
   { title: "Prior years 2 to 5", desc: "Optional. Carrier, premium, experience mod and claims for each earlier policy year. Enter 0 if there were no claims.", collapsible: true, fields: [
     { name: "priorYear2Year", label: "Year 2: policy year", kind: "text", placeholder: "e.g. 2023" },
@@ -750,7 +751,7 @@ export default function QuotePage() {
                                     ) : f.kind === "textarea" ? (
                                       <textarea id={f.name} name={f.name} rows={3} maxLength={500} value={formData[f.name]} onChange={handleChange} placeholder={f.placeholder} className={`${inputClass} resize-none`} />
                                     ) : (
-                                      <input id={f.name} name={f.name} type={f.kind === "date" ? "date" : f.kind === "number" ? "number" : "text"} min={f.kind === "number" ? 0 : undefined} inputMode={f.kind === "number" || f.kind === "zip" ? "numeric" : undefined} pattern={f.kind === "fein" ? "[0-9]{2}-?[0-9]{7}" : f.kind === "zip" ? "[0-9]{5}(-[0-9]{4})?" : undefined} title={f.kind === "fein" ? "9 digits, e.g. 12-3456789" : f.kind === "zip" ? "5-digit ZIP code" : undefined} maxLength={f.maxLength} placeholder={f.kind === "fein" ? "12-3456789" : f.placeholder} value={formData[f.name]} onChange={handleChange} className={inputClass} />
+                                      <input id={f.name} name={f.name} type={f.kind === "date" ? "date" : f.kind === "number" ? "number" : "text"} min={f.kind === "number" ? 0 : undefined} inputMode={f.kind === "number" || f.kind === "zip" || f.numeric ? "numeric" : undefined} pattern={f.kind === "fein" ? "[0-9]{2}-?[0-9]{7}" : f.kind === "zip" ? "[0-9]{5}(-[0-9]{4})?" : undefined} title={f.kind === "fein" ? "9 digits, e.g. 12-3456789" : f.kind === "zip" ? "5-digit ZIP code" : undefined} maxLength={f.maxLength} placeholder={f.kind === "fein" ? "12-3456789" : f.placeholder} value={formData[f.name]} onChange={handleChange} className={inputClass} />
                                     )}
                                   </>
                                 )}
