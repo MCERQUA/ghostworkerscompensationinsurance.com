@@ -3,7 +3,7 @@ const LEADS_WEBHOOK =
 
 /**
  * Write a lead. Returns true only if a write succeeded: the leads webhook
- * answered 2xx, or (fallback) the Netlify Forms POST to "/" answered 2xx.
+ * answered 2xx, or (fallback) the Netlify Forms POST to "/__forms.html" answered 2xx.
  * The caller shows an error only when this returns false (both failed).
  */
 export async function submitLead(
@@ -23,13 +23,13 @@ export async function submitLead(
     // The webhook answers 200 with stored:false when it did not store the lead.
     if (res.ok) {
       const j = await res.json().catch(() => null);
-      if (!j || j.stored !== false) return true;
+      if (j && j.ok === true && j.stored !== false) return true;
     }
   } catch {
     // fall through to Netlify Forms
   }
   try {
-    const res = await fetch("/", {
+    const res = await fetch("/__forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams({ "form-name": formName, ...fields }).toString(),
