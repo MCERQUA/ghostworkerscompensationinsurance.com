@@ -80,9 +80,9 @@ interface FormData extends Record<string, string> {
 }
 
 type AcordKind = "text" | "number" | "date" | "textarea" | "select" | "radio" | "fein" | "zip";
-type AcordField = { name: string; label: string; kind: AcordKind; options?: string[][]; placeholder?: string; showIf?: [string, string] };
+type AcordField = { name: string; label: string; kind: AcordKind; options?: string[][]; placeholder?: string; showIf?: [string, string]; maxLength?: number };
 // All ACORD intake fields below are OPTIONAL and must stay registered in public/__forms.html.
-const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
+const ACORD_GROUPS: { title: string; desc: string; collapsible?: boolean; fields: AcordField[] }[] = [
   { title: "Business entity", desc: "Entity details for the application.", fields: [
     { name: "firstName", label: "First name", kind: "text" },
     { name: "lastName", label: "Last name", kind: "text" },
@@ -150,7 +150,38 @@ const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
   ] },
   { title: "Coverage limits and prior premium", desc: "Optional.", fields: [
     { name: "employersLiabilityLimit", label: "Employers liability limits requested (each accident / disease policy / disease each employee)", kind: "select", options: [["100/500/100", "$100,000 / $500,000 / $100,000"], ["500/500/500", "$500,000 / $500,000 / $500,000"], ["1000/1000/1000", "$1,000,000 / $1,000,000 / $1,000,000"], ["Other", "Other / not sure"]] },
-    { name: "priorPremium", label: "Annual premium on your current or most recent policy ($)", kind: "number" }
+    { name: "priorPremium", label: "Annual premium on your current or most recent policy ($)", kind: "number" },
+    { name: "priorExperienceMod", label: "Experience modification factor on your current or most recent policy", kind: "text", placeholder: "e.g. 0.85" }
+  ] },
+  { title: "Prior years 2 to 5", desc: "Optional. Carrier, premium, experience mod and claims for each earlier policy year. Enter 0 if there were no claims.", collapsible: true, fields: [
+    { name: "priorYear2Year", label: "Year 2: policy year", kind: "text", placeholder: "e.g. 2023" },
+    { name: "priorYear2Carrier", label: "Year 2: carrier name", kind: "text" },
+    { name: "priorYear2Premium", label: "Year 2: premium ($)", kind: "number" },
+    { name: "priorYear2Mod", label: "Year 2: experience mod", kind: "text", placeholder: "e.g. 0.85" },
+    { name: "priorYear2ClaimCount", label: "Year 2: number of claims", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear2Paid", label: "Year 2: amount paid ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear2Reserved", label: "Year 2: amount reserved ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear3Year", label: "Year 3: policy year", kind: "text", placeholder: "e.g. 2023" },
+    { name: "priorYear3Carrier", label: "Year 3: carrier name", kind: "text" },
+    { name: "priorYear3Premium", label: "Year 3: premium ($)", kind: "number" },
+    { name: "priorYear3Mod", label: "Year 3: experience mod", kind: "text", placeholder: "e.g. 0.85" },
+    { name: "priorYear3ClaimCount", label: "Year 3: number of claims", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear3Paid", label: "Year 3: amount paid ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear3Reserved", label: "Year 3: amount reserved ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear4Year", label: "Year 4: policy year", kind: "text", placeholder: "e.g. 2023" },
+    { name: "priorYear4Carrier", label: "Year 4: carrier name", kind: "text" },
+    { name: "priorYear4Premium", label: "Year 4: premium ($)", kind: "number" },
+    { name: "priorYear4Mod", label: "Year 4: experience mod", kind: "text", placeholder: "e.g. 0.85" },
+    { name: "priorYear4ClaimCount", label: "Year 4: number of claims", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear4Paid", label: "Year 4: amount paid ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear4Reserved", label: "Year 4: amount reserved ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear5Year", label: "Year 5: policy year", kind: "text", placeholder: "e.g. 2023" },
+    { name: "priorYear5Carrier", label: "Year 5: carrier name", kind: "text" },
+    { name: "priorYear5Premium", label: "Year 5: premium ($)", kind: "number" },
+    { name: "priorYear5Mod", label: "Year 5: experience mod", kind: "text", placeholder: "e.g. 0.85" },
+    { name: "priorYear5ClaimCount", label: "Year 5: number of claims", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear5Paid", label: "Year 5: amount paid ($)", kind: "number", placeholder: "0 if none" },
+    { name: "priorYear5Reserved", label: "Year 5: amount reserved ($)", kind: "number", placeholder: "0 if none" }
   ] },
   { title: "Workers' compensation questions", desc: "Optional. Answer Yes or No; add a short explanation for any Yes.", fields: [
     { name: "yn_foreignCoverage", label: "Do you need Foreign coverage?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
@@ -203,6 +234,7 @@ const ACORD_GROUPS: { title: string; desc: string; fields: AcordField[] }[] = [
   ] },
   { title: "Signature", desc: "Optional. Type your full legal name as your electronic signature and enter today's date.", fields: [
     { name: "applicantSignature", label: "Applicant signature (type your full legal name)", kind: "text" },
+    { name: "applicantInitials", label: "Applicant initials", kind: "text", maxLength: 4 },
     { name: "signatureDate", label: "Signature date (today)", kind: "date" }
   ] },
 ];
@@ -686,12 +718,21 @@ export default function QuotePage() {
                         <div><label className={labelClass}>Policy expiration date</label><input type="date" name="priorPolicyExpiration" className={inputClass} /></div>
                       </div>
 
-                      {ACORD_GROUPS.map((g) => (
-                        <div key={g.title} className="space-y-4 pt-5 border-t border-adobe">
+                      {ACORD_GROUPS.map((g) => {
+                        const Wrap = (g.collapsible ? "details" : "div") as "div";
+                        return (
+                        <Wrap key={g.title} className="space-y-4 pt-5 border-t border-adobe">
+                          {g.collapsible ? (
+                            <summary className="cursor-pointer font-heading font-bold text-sm uppercase tracking-wider">
+                              {g.title} (optional, click to expand)
+                              <span className="block text-xs font-normal normal-case tracking-normal opacity-70 mt-1">{g.desc}</span>
+                            </summary>
+                          ) : (
                           <div>
                             <h3 className="font-heading font-bold text-sm uppercase tracking-wider">{g.title}</h3>
                             <p className="text-xs opacity-70 mt-0.5">{g.desc}</p>
                           </div>
+                          )}
                           <div className="grid sm:grid-cols-2 gap-4">
                             {g.fields.filter((f) => !f.showIf || formData[f.showIf[0]] === f.showIf[1]).map((f) => (
                               <div key={f.name} className={f.kind === "textarea" ? "sm:col-span-2" : ""}>
@@ -714,15 +755,16 @@ export default function QuotePage() {
                                     ) : f.kind === "textarea" ? (
                                       <textarea id={f.name} name={f.name} rows={3} maxLength={500} value={formData[f.name]} onChange={handleChange} placeholder={f.placeholder} className={`${inputClass} resize-none`} />
                                     ) : (
-                                      <input id={f.name} name={f.name} type={f.kind === "date" ? "date" : f.kind === "number" ? "number" : "text"} min={f.kind === "number" ? 0 : undefined} inputMode={f.kind === "number" || f.kind === "zip" ? "numeric" : undefined} pattern={f.kind === "fein" ? "[0-9]{2}-?[0-9]{7}" : f.kind === "zip" ? "[0-9]{5}(-[0-9]{4})?" : undefined} title={f.kind === "fein" ? "9 digits, e.g. 12-3456789" : f.kind === "zip" ? "5-digit ZIP code" : undefined} placeholder={f.kind === "fein" ? "12-3456789" : f.placeholder} value={formData[f.name]} onChange={handleChange} className={inputClass} />
+                                      <input id={f.name} name={f.name} type={f.kind === "date" ? "date" : f.kind === "number" ? "number" : "text"} min={f.kind === "number" ? 0 : undefined} inputMode={f.kind === "number" || f.kind === "zip" ? "numeric" : undefined} pattern={f.kind === "fein" ? "[0-9]{2}-?[0-9]{7}" : f.kind === "zip" ? "[0-9]{5}(-[0-9]{4})?" : undefined} title={f.kind === "fein" ? "9 digits, e.g. 12-3456789" : f.kind === "zip" ? "5-digit ZIP code" : undefined} maxLength={f.maxLength} placeholder={f.kind === "fein" ? "12-3456789" : f.placeholder} value={formData[f.name]} onChange={handleChange} className={inputClass} />
                                     )}
                                   </>
                                 )}
                               </div>
                             ))}
                           </div>
-                        </div>
-                      ))}
+                        </Wrap>
+                        );
+                      })}
 
                       <div className="space-y-4 pt-5 border-t border-adobe">
                         <div>
