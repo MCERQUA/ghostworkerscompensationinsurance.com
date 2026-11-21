@@ -120,6 +120,7 @@ const ACORD_GROUPS: { title: string; desc: string; collapsible?: boolean; fields
   ] },
   { title: "Coverage timing and history", desc: "Optional.", fields: [
     { name: "desiredEffectiveDate", label: "Desired policy effective date", kind: "date" },
+    { name: "desiredExpirationDate", label: "Desired policy expiration date", kind: "date" },
     { name: "currentlyInsured", label: "Do you currently have workers' compensation coverage?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
     { name: "coverageTerminated", label: "Has any carrier cancelled or declined your workers' compensation in the past 3 years?", kind: "radio", options: [["Yes", "Yes"], ["No", "No"]] },
     { name: "coverageTerminatedExplanation", label: "Please explain: which carrier, when, and why", kind: "textarea", showIf: ["coverageTerminated", "Yes"] },
@@ -150,6 +151,9 @@ const ACORD_GROUPS: { title: string; desc: string; collapsible?: boolean; fields
   ] },
   { title: "Coverage limits and prior premium", desc: "Optional.", fields: [
     { name: "employersLiabilityLimit", label: "Employers liability limits requested (each accident / disease policy / disease each employee)", kind: "select", options: [["100/500/100", "$100,000 / $500,000 / $100,000"], ["500/500/500", "$500,000 / $500,000 / $500,000"], ["1000/1000/1000", "$1,000,000 / $1,000,000 / $1,000,000"], ["Other", "Other / not sure"]] },
+    { name: "elEachAccident", label: "Employers liability: each accident", kind: "select", options: [["100,000", "100,000"], ["500,000", "500,000"], ["1,000,000", "1,000,000"]] },
+    { name: "elDiseasePolicy", label: "Employers liability: disease, policy limit", kind: "select", options: [["100,000", "100,000"], ["500,000", "500,000"], ["1,000,000", "1,000,000"]] },
+    { name: "elDiseaseEachEmployee", label: "Employers liability: disease, each employee", kind: "select", options: [["100,000", "100,000"], ["500,000", "500,000"], ["1,000,000", "1,000,000"]] },
     { name: "priorPremium", label: "Annual premium on your current or most recent policy ($)", kind: "number" },
     { name: "priorExperienceMod", label: "Experience modification factor on your current or most recent policy", kind: "text", placeholder: "e.g. 0.85" },
     { name: "priorYear1Year", label: "Year 1: policy year (current or most recent)", kind: "text", placeholder: "e.g. 2025", maxLength: 4, numeric: true }
